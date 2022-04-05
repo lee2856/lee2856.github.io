@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
+  <url>
+    <loc>https://lee2856.github.io/others/</loc>
+    <lastmod>2022-04-04T12:55:02-04:00</lastmod>
+  </url><url>
+    <loc>https://lee2856.github.io/mycv/</loc>
+    <lastmod>2022-04-04T12:42:34-04:00</lastmod>
+  </url><url>
+    <loc>https://lee2856.github.io/myteaching/</loc>
+    <lastmod>2022-04-04T12:32:33-04:00</lastmod>
+  </url><url>
+    <loc>https://lee2856.github.io/mytalks/</loc>
+    <lastmod>2022-04-04T00:37:57-04:00</lastmod>
+  </url><url>
+    <loc>https://lee2856.github.io/</loc>
+    <lastmod>2022-04-02T23:26:02-04:00</lastmod>
+  </url><url>
+    <loc>https://lee2856.github.io/mypublications/</loc>
+    <lastmod>2022-04-02T21:53:20-04:00</lastmod>
+  </url><url>
+    <loc>https://lee2856.github.io/categories/</loc>
+  </url><url>
+    <loc>https://lee2856.github.io/tags/</loc>
+  </url>
 </urlset>

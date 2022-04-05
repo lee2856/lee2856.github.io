@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Seunghoon Lee</title>
+    <link>https://lee2856.github.io/</link>
+    <description>Recent content in About on Seunghoon Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Apr 2022 23:26:02 -0400</lastBuildDate><atom:link href="https://lee2856.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Services &amp; Awards</title>
+      <link>https://lee2856.github.io/others/</link>
+      <pubDate>Mon, 04 Apr 2022 12:55:02 -0400</pubDate>
+      
+      <guid>https://lee2856.github.io/others/</guid>
+      <description>Professional Services  External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, and CRYPTO 2022.  Selected Grants and Awards  [2019-] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation  </description>
+    </item>
+    
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>https://lee2856.github.io/mycv/</link>
+      <pubDate>Mon, 04 Apr 2022 12:42:34 -0400</pubDate>
+      
+      <guid>https://lee2856.github.io/mycv/</guid>
+      <description>This browser does not support embedded PDFs. Please download the PDF to view it: Download PDF.
+  </description>
+    </item>
+    
+    <item>
+      <title>Teaching Activities</title>
+      <link>https://lee2856.github.io/myteaching/</link>
+      <pubDate>Mon, 04 Apr 2022 12:32:33 -0400</pubDate>
+      
+      <guid>https://lee2856.github.io/myteaching/</guid>
+      <description>At Purdue University  [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development) with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra) with Prof. David Gleich. (course webpage) [Spring 2018] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Daniel G. Aliaga and Prof. Gustavo Rodriguez-Rivera. (course webpage) [Fall 2017] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof.</description>
+    </item>
+    
+    <item>
+      <title>Talks &amp; Poster Presentations</title>
+      <link>https://lee2856.github.io/mytalks/</link>
+      <pubDate>Mon, 04 Apr 2022 00:37:57 -0400</pubDate>
+      
+      <guid>https://lee2856.github.io/mytalks/</guid>
+      <description>Talks   March 15, 2022: On Explicit Constructions of Extremely Depth Robust Graphs, at STACS 2022, on Zoom.  [teaser]     [slides] This browser does not support embedded PDFs. Please download the PDF to view it: Download PDF.
+     July 26, 2021: On the Security of Proofs of Sequential Work in a Post-Quantum World, at ITC 2021, on Zoom. [live talk]  [full talk]     [slides] This browser does not support embedded PDFs.</description>
+    </item>
+    
+    <item>
+      <title>Publications and Preprints</title>
+      <link>https://lee2856.github.io/mypublications/</link>
+      <pubDate>Sat, 02 Apr 2022 21:53:20 -0400</pubDate>
+      
+      <guid>https://lee2856.github.io/mypublications/</guid>
+      <description>Publications   On the Multi-User Security of Short Schnorr Signatures with Preprocessing. with Jeremiah Blocki. EUROCRYPT 2022 [pdf]  [abstract] The Schnorr signature scheme is an efficient digital signature scheme with short signature lengths, i.e., $4k$-bit signatures for $k$ bits of security. A Schnorr signature $\sigma$ over a group of size $p\approx 2^{2k}$ consists of a tuple $(s,e)$, where $e \in \lbrace 0,1 \rbrace^{2k}$ is a hash output and $s\in \mathbb{Z}_p$ must be computed using the secret key.</description>
+    </item>
+    
+  </channel>
+</rss>
