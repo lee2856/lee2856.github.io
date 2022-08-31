@@ -4,8 +4,8 @@
 <head>
 
     
-    <meta name="generator" content="Hugo 0.96.0" />
-    <meta name="date" content="2022-03-26T09:15:58Z">
+    <meta name="generator" content="Hugo 0.102.1" />
+    <meta name="date" content="2022-08-29T23:29:20Z">
 
     
     <meta charset="utf-8">
@@ -112,6 +112,13 @@
     <h2 id="publications">Publications</h2>
 <ul>
 <li>
+<p><em>The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.</em> with <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a> and <a href="https://blake-holman.github.io/">Blake Holman</a>. <a href="https://tcc.iacr.org/2022/"><strong>TCC 2022</strong></a> <a href="https://arxiv.org/pdf/2110.04191.pdf">[pdf]</a> <details>
+  <summary>[abstract]</summary>
+  The classical (parallel) black pebbling game is a useful abstraction which allows us to analyze the resources (space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$. Of particular interest in the field of cryptography are data-independent memory-hard functions $f_{G,H}$ which are defined by a directed acyclic graph (DAG) $G$ and a cryptographic hash function $H$. The pebbling complexity of the graph $G$ characterizes the amortized cost of evaluating $f_{G,H}$ multiple times as well as the total cost to run a brute-force preimage attack over a fixed domain $\mathcal{X}$, i.e., given $y \in \lbrace 0,1\rbrace^*$ find $x \in \mathcal{X}$ such that $f_{G,H}(x)=y$. While a classical attacker will need to evaluate the function $f_{G,H}$ at least $m=|\mathcal{X}|$ times a quantum attacker running Grover&rsquo;s algorithm only requires $\mathcal{O}(\sqrt{m})$ blackbox calls to a quantum circuit $C_{G,H}$ evaluating the function $f_{G,H}$. Thus, to analyze the cost of a quantum attack it is crucial to understand the space-time cost (equivalently width times depth) of the quantum circuit $C_{G,H}$. We first observe that a legal black pebbling strategy for the graph $G$ does not necessarily imply the existence of a quantum circuit with comparable complexity &mdash; in contrast to the classical setting where any efficient pebbling strategy for $G$ corresponds to an algorithm with comparable complexity evaluating $f_{G,H}$. Motivated by this observation we introduce a new (parallel) reversible pebbling game which captures additional restrictions imposed by the No-Deletion Theorem in Quantum Computing. We apply our new reversible pebbling game to analyze the reversible space-time complexity of several important graphs: Line Graphs, Argon2i-A, Argon2i-B, and DRSample. Specifically, (1) We show that a line graph of size $N$ has reversible space-time complexity at most $\mathcal{O}\left(N^{1+\frac{2}{\log N}}\right)$. (2) We show that any $(e,d)$-reducible DAG has reversible space-time complexity at most $\mathcal{O}(Ne+dN2^d)$. In particular, this implies that the reversible space-time complexity of Argon2i-A and Argon2i-B are at most $\mathcal{O}(N^2 \log \log N/\sqrt{\log N})$ and $\mathcal{O}(N^2/\sqrt[3]{\log N})$, respectively. (3) We show that the reversible space-time complexity of DRSample is at most $\mathcal{O}(N^2 \log \log N/\log N)$. We also study the cumulative pebbling cost of reversible pebblings extending a (non-reversible) pebbling attack of Alwen and Blocki on depth-reducible graphs.
+</details>
+</p>
+</li>
+<li>
 <p><em>On the Multi-User Security of Short Schnorr Signatures with Preprocessing.</em> with <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a>. <a href="https://eurocrypt.iacr.org/2022/"><strong>EUROCRYPT 2022</strong></a> <a href="https://eprint.iacr.org/2019/1105.pdf">[pdf]</a> <details>
   <summary>[abstract]</summary>
   <p>The Schnorr signature scheme is an efficient digital signature scheme with short signature lengths, i.e., $4k$-bit signatures for $k$ bits of security. A Schnorr signature $\sigma$ over a group of size $p\approx 2^{2k}$ consists of a tuple $(s,e)$, where $e \in \lbrace 0,1 \rbrace^{2k}$ is a hash output and $s\in \mathbb{Z}_p$ must be computed using the secret key. While the hash output $e$ requires $2k$ bits to encode, Schnorr proposed that it might be possible to truncate the hash value without adversely impacting security.</p>
@@ -155,14 +162,6 @@ Mahmoody, Moran, and Vadhan (ITCS 2013) gave the first construction of a PoSW in
 
 </details>
 </p>
-</li>
-</ul>
-<h2 id="preprints">Preprints</h2>
-<ul>
-<li><em>Parallel Quantum Pebbling: Analyzing the Post-Quantum Security of iMHFs.</em> with <a href="https://www.cs.purdue.edu/homes/jblocki/">Jeremiah Blocki</a>. <a href="https://arxiv.org/pdf/2110.04191.pdf">[pdf]</a> <details>
-  <summary>[abstract]</summary>
-  The classical (parallel) black pebbling game is a useful abstraction which allows us to analyze the resources (space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$. Of particular interest in the field of cryptography are data-independent memory-hard functions $f_{G,H}$ which are defined by a directed acyclic graph (DAG) $G$ and a cryptographic hash function $H$. The pebbling complexity of the graph $G$ characterizes the amortized cost of evaluating $f_{G,H}$ multiple times as well as the total cost to run a brute-force preimage attack over a fixed domain $\mathcal{X}$, i.e., given $y \in \lbrace 0,1\rbrace^*$ find $x \in \mathcal{X}$ such that $f_{G,H}(x)=y$. While a classical attacker will need to evaluate the function $f_{G,H}$ at least $m=|\mathcal{X}|$ times a quantum attacker running Grover&rsquo;s algorithm only requires $\mathcal{O}(\sqrt{m})$ blackbox calls to a quantum circuit $C_{G,H}$ evaluating the function $f_{G,H}$. Thus, to analyze the cost of a quantum attack it is crucial to understand the space-time cost (equivalently width times depth) of the quantum circuit $C_{G,H}$. We first observe that a legal black pebbling strategy for the graph $G$ does not necessarily imply the existence of a quantum circuit with comparable complexity &mdash; in contrast to the classical setting where any efficient pebbling strategy for $G$ corresponds to an algorithm with comparable complexity evaluating $f_{G,H}$. Motivated by this observation we introduce a new (parallel) quantum pebbling game which captures additional restrictions imposed by the No-Deletion Theorem in Quantum Computing. We apply our new quantum pebbling game to analyze the quantum space-time complexity of several important graphs: the line graph, Argon2i-A, Argon2i-B, and DRSample. Specifically, (1) We provide a recursive quantum pebbling attack which shows that the space-time complexity of the line graph is at most $\mathcal{O}(N^{1+\epsilon})$ for any constant $\epsilon$. (2) We show that any $(e,d)$-reducible DAG has space-time complexity at most $\mathcal{O}(Ne+dN2^d)$. In particular, this implies that the quantum space-time complexity of Argon2i-A and Argon2i-B are at most $\mathcal{O}(N^2 \log \log N/\sqrt{\log N})$ and $\mathcal{O}(N^2/\sqrt[3]{\log N})$, respectively. (3) We show that the quantum space-time complexity of DRSample is at most $\mathcal{O}(N^2 \log \log N/\log N)$. It is an open question to construct a constant indegree graph with quantum space-time complexity $\Omega(N^2)$ or to give a general pebbling attack showing that no such graph exists.
-</details>
 </li>
 </ul>
 <h2 id="manuscript">Manuscript</h2>
