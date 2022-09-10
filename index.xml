@@ -1,137 +1,196 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Seunghoon Lee</title>
+    <title>Seunghoon Lee</title>
     <link>https://lee2856.github.io/</link>
-    <description>Recent content in About on Seunghoon Lee</description>
+    <description>Recent content on Seunghoon Lee</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 02 Apr 2022 23:26:02 -0400</lastBuildDate><atom:link href="https://lee2856.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Poster</title>
-      <link>https://lee2856.github.io/posters/shortschnorr/</link>
-      <pubDate>Mon, 04 Apr 2022 22:04:07 -0400</pubDate>
-      
-      <guid>https://lee2856.github.io/posters/shortschnorr/</guid>
-      <description>On the Multi-User Security of Short Schnorr Signatures [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
-    </item>
-    
-    <item>
-      <title>Poster</title>
-      <link>https://lee2856.github.io/posters/approx/</link>
-      <pubDate>Mon, 04 Apr 2022 22:03:57 -0400</pubDate>
-      
-      <guid>https://lee2856.github.io/posters/approx/</guid>
-      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
-    </item>
-    
-    <item>
-      <title>Poster</title>
-      <link>https://lee2856.github.io/posters/multiuser/</link>
-      <pubDate>Mon, 04 Apr 2022 22:03:45 -0400</pubDate>
-      
-      <guid>https://lee2856.github.io/posters/multiuser/</guid>
-      <description>On the Multi-User Security of Short Schnorr Signatures with Preprocessing [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
-    </item>
-    
-    <item>
-      <title>Weekly Lab Meeting</title>
-      <link>https://lee2856.github.io/talkslides/labmeeting0619/</link>
-      <pubDate>Mon, 04 Apr 2022 21:48:14 -0400</pubDate>
-      
-      <guid>https://lee2856.github.io/talkslides/labmeeting0619/</guid>
-      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
-    </item>
-    
-    <item>
-      <title>Weekly Lab Meeting</title>
-      <link>https://lee2856.github.io/talkslides/labmeeting1019/</link>
-      <pubDate>Mon, 04 Apr 2022 21:47:56 -0400</pubDate>
-      
-      <guid>https://lee2856.github.io/talkslides/labmeeting1019/</guid>
-      <description>On the Multi-User Security of Short Schnorr Signatures [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://lee2856.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crypto Reading Group</title>
       <link>https://lee2856.github.io/talkslides/readinggroup/</link>
-      <pubDate>Mon, 04 Apr 2022 21:47:50 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/talkslides/readinggroup/</guid>
-      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
     </item>
     
     <item>
-      <title>ITCS 2020</title>
-      <link>https://lee2856.github.io/talkslides/itcs2020/</link>
-      <pubDate>Mon, 04 Apr 2022 21:47:36 -0400</pubDate>
+      <title>CV</title>
+      <link>https://lee2856.github.io/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lee2856.github.io/talkslides/itcs2020/</guid>
-      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <guid>https://lee2856.github.io/cv/</guid>
+      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
     </item>
     
     <item>
       <title>ITC 2021</title>
       <link>https://lee2856.github.io/talkslides/itc2021/</link>
-      <pubDate>Mon, 04 Apr 2022 21:45:05 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/talkslides/itc2021/</guid>
-      <description>On the Security of Proofs of Sequential Work in a Post-Quantum World [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>On the Security of Proofs of Sequential Work in a Post-Quantum World   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>ITC 2021</title>
+      <link>https://lee2856.github.io/talkvideos/itc2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkvideos/itc2021/</guid>
+      <description>On the Security of Proofs of Sequential Work in a Post-Quantum World Live Talk:
+  Full Talk:
+  [Back]</description>
+    </item>
+    
+    <item>
+      <title>ITCS 2020</title>
+      <link>https://lee2856.github.io/talkslides/itcs2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/itcs2020/</guid>
+      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Meditation</title>
+      <link>https://lee2856.github.io/sermonstuff/082822/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/sermonstuff/082822/</guid>
+      <description>August 28, 2022 Kingdom Living Part 1: Listening to Jesus  3 Blessed are the poor in spirit, for theirs is the kingdom of heaven. 4 Blessed are those who mourn, for they shall be comforted. (Matthew 5:3-4)
+ Identity shift means repentance. Your reaction &amp;ldquo;comes from&amp;rdquo; who you are.
+(v.3) Spiritual poverty implies total inability which needs God&amp;rsquo;s charity (cf. Luke 18:10-14).
+Look upward, not inward.
+Where is your heart?</description>
+    </item>
+    
+    <item>
+      <title>Meditation</title>
+      <link>https://lee2856.github.io/sermonstuff/090422/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/sermonstuff/090422/</guid>
+      <description>September 4, 2022 Kingdom Living Part 2: Listening to Jesus  5 Blessed are the meek, for they shall inherit the earth. 6 Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. (Matthew 5:5-6)
+ (v.5) There is an upside-down paradox &amp;ndash; it does not look blessing for us.
+The word &amp;ldquo;meek&amp;rdquo; does not mean &amp;lsquo;weak/shy/coward&amp;rsquo; but mean &amp;lsquo;gentle/humble&amp;rsquo; (strength that accommodates others&amp;rsquo; weakness).
+ &amp;ldquo;Brothers, if anyone is caught in any transgression, you who are spiritual should restore him in a spirit of gentleness.</description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>https://lee2856.github.io/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/personal/</guid>
+      <description>&amp;ldquo;But God shows his love for us in that while we were still sinners, Christ died for us.&amp;rdquo; (Romans 5:8)</description>
+    </item>
+    
+    <item>
+      <title>Poster</title>
+      <link>https://lee2856.github.io/posters/approx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/posters/approx/</guid>
+      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Poster</title>
+      <link>https://lee2856.github.io/posters/multiuser/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/posters/multiuser/</guid>
+      <description>On the Multi-User Security of Short Schnorr Signatures with Preprocessing   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Poster</title>
+      <link>https://lee2856.github.io/posters/shortschnorr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/posters/shortschnorr/</guid>
+      <description>On the Multi-User Security of Short Schnorr Signatures   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://lee2856.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/publications/</guid>
+      <description>Publications   The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.
+Jeremiah Blocki, Blake Holman, and Seunghoon Lee
+In TCC 2022. (To appear)  [abstract] The classical (parallel) black pebbling game is a useful abstraction which allows us to analyze the resources (space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$. Of particular interest in the field of cryptography are data-independent memory-hard functions $f_{G,H}$ which are defined by a directed acyclic graph (DAG) $G$ and a cryptographic hash function $H$.</description>
+    </item>
+    
+    <item>
+      <title>Services &amp; Awards</title>
+      <link>https://lee2856.github.io/awards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/awards/</guid>
+      <description>Professional Services  External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, and SYNASC 2022.  Selected Grants and Awards  [2019-] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation  </description>
     </item>
     
     <item>
       <title>STACS 2022</title>
       <link>https://lee2856.github.io/talkslides/stacs2022/</link>
-      <pubDate>Mon, 04 Apr 2022 21:37:14 -0400</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/talkslides/stacs2022/</guid>
-      <description>On Explicit Constructions of Extremely Depth Robust Graphs [Download] [Go Back to Talks] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <description>STACS 2022: On Explicit Constructions of Extremely Depth Robust Graphs   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
     </item>
     
     <item>
-      <title>Services &amp; Awards</title>
-      <link>https://lee2856.github.io/others/</link>
-      <pubDate>Mon, 04 Apr 2022 12:55:02 -0400</pubDate>
+      <title>STACS 2022</title>
+      <link>https://lee2856.github.io/talkvideos/stacs2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lee2856.github.io/others/</guid>
-      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, and CRYPTO 2022. Selected Grants and Awards [2019-] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
+      <guid>https://lee2856.github.io/talkvideos/stacs2022/</guid>
+      <description>On Explicit Constructions of Extremely Depth Robust Graphs    [Back]</description>
     </item>
     
     <item>
-      <title>Curriculum Vitae</title>
-      <link>https://lee2856.github.io/mycv/</link>
-      <pubDate>Mon, 04 Apr 2022 12:42:34 -0400</pubDate>
+      <title>Talks</title>
+      <link>https://lee2856.github.io/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lee2856.github.io/mycv/</guid>
-      <description>[Download] Previous Next &amp;nbsp; &amp;nbsp; Page: / </description>
+      <guid>https://lee2856.github.io/talks/</guid>
+      <description>Talks  On Explicit Constructions of Extremely Depth Robust Graphs.
+STACS 2022, on Zoom. [Slides] [Video] On the Security of Proofs of Sequential Work in a Post-Quantum World.
+ITC 2021, on Zoom. [Slides] [Video] Approximating Cumulative Pebbling Cost is Unique Games Hard.
+ITCS 2020, in Seattle, WA. [Slides] Approximating Cumulative Pebbling Cost is Unique Games Hard.
+Purdue Crypto Reading Group. [Slides] On the Multi-User Security of Short Schnorr Signatures.
+Weekly Lab Meeting.</description>
     </item>
     
     <item>
-      <title>Teaching Activities</title>
-      <link>https://lee2856.github.io/myteaching/</link>
-      <pubDate>Mon, 04 Apr 2022 12:32:33 -0400</pubDate>
+      <title>Teachings</title>
+      <link>https://lee2856.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lee2856.github.io/myteaching/</guid>
-      <description>At Purdue University [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development) with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra) with Prof. David Gleich. (course webpage) [Spring 2018] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Daniel G. Aliaga and Prof. Gustavo Rodriguez-Rivera. (course webpage) [Fall 2017] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof.</description>
+      <guid>https://lee2856.github.io/teaching/</guid>
+      <description>At Purdue University  [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development) with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra) with Prof. David Gleich. [Spring 2018] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Daniel G. Aliaga and Prof. Gustavo Rodriguez-Rivera. [Fall 2017] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof.</description>
     </item>
     
     <item>
-      <title>Talks &amp; Poster Presentations</title>
-      <link>https://lee2856.github.io/mytalks/</link>
-      <pubDate>Mon, 04 Apr 2022 00:37:57 -0400</pubDate>
+      <title>Weekly Lab Meeting</title>
+      <link>https://lee2856.github.io/talkslides/labmeeting0619/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lee2856.github.io/mytalks/</guid>
-      <description>Talks March 15, 2022: On Explicit Constructions of Extremely Depth Robust Graphs, at STACS 2022, on Zoom. [Slides] [teaser] July 26, 2021: On the Security of Proofs of Sequential Work in a Post-Quantum World, at ITC 2021, on Zoom. [Slides] [live talk] [full talk] January 12, 2020: Approximating Cumulative Pebbling Cost is Unique Games Hard, at ITCS 2020, in Seattle, WA. [Slides]
-November 6, 2019: Approximating Cumulative Pebbling Cost is Unique Games Hard, at a Purdue Crypto Reading Group.</description>
+      <guid>https://lee2856.github.io/talkslides/labmeeting0619/</guid>
+      <description>Approximating Cumulative Pebbling Cost is Unique Games Hard   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
     </item>
     
     <item>
-      <title>Publications and Preprints</title>
-      <link>https://lee2856.github.io/mypublications/</link>
-      <pubDate>Sat, 02 Apr 2022 21:53:20 -0400</pubDate>
+      <title>Weekly Lab Meeting</title>
+      <link>https://lee2856.github.io/talkslides/labmeeting1019/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lee2856.github.io/mypublications/</guid>
-      <description>Publications The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs. with Jeremiah Blocki and Blake Holman. TCC 2022 [pdf] [abstract] The classical (parallel) black pebbling game is a useful abstraction which allows us to analyze the resources (space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$. Of particular interest in the field of cryptography are data-independent memory-hard functions $f_{G,H}$ which are defined by a directed acyclic graph (DAG) $G$ and a cryptographic hash function $H$.</description>
+      <guid>https://lee2856.github.io/talkslides/labmeeting1019/</guid>
+      <description>On the Multi-User Security of Short Schnorr Signatures   #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
     </item>
     
   </channel>
