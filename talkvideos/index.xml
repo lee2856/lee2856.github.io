@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talkvideos on Seunghoon Lee</title>
+    <link>https://lee2856.github.io/talkvideos/</link>
+    <description>Recent content in Talkvideos on Seunghoon Lee</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://lee2856.github.io/talkvideos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ITC 2021</title>
+      <link>https://lee2856.github.io/talkvideos/itc2021/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkvideos/itc2021/</guid>
+      <description>On the Security of Proofs of Sequential Work in a Post-Quantum World Live Talk:
+  Full Talk:
+  [Back]</description>
+    </item>
+    
+    <item>
+      <title>STACS 2022</title>
+      <link>https://lee2856.github.io/talkvideos/stacs2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkvideos/stacs2022/</guid>
+      <description>On Explicit Constructions of Extremely Depth Robust Graphs    [Back]</description>
+    </item>
+    
+  </channel>
+</rss>
