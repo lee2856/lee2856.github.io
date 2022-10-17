@@ -6,3 +6,8 @@ img {
   display: block;
   padding: 5px;
 }
+
+img[alt=sermondrawing] {
+  width: 400px;
+  border-radius: 0%;
+}

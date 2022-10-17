@@ -20,7 +20,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href='/favicon.ico' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ITC 2021 - Seunghoon Lee</title>
+    <title>Kingdom Living - Seunghoon Lee</title>
 
     
 
@@ -29,10 +29,11 @@
     
 
     
-        <meta property="og:title" content="ITC 2021" />
-<meta property="og:description" content="On the Security of Proofs of Sequential Work in a Post-Quantum World Previous Next &nbsp; &nbsp; Page: / [Download] [Back]" />
+        <meta property="og:title" content="Kingdom Living" />
+<meta property="og:description" content="October 2, 2022 Kingdom Living Part 6: Listening to Jesus &ldquo;Live in Joyful Obedience&rdquo; Christ Came to Fulfill the Law
+17 “Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them. 18 For truly, I say to you, until heaven and earth pass away, not an iota, not a dot, will pass from the Law until all is accomplished." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lee2856.github.io/talkslides/itc2021/" /><meta property="article:section" content="talkslides" />
+<meta property="og:url" content="https://lee2856.github.io/sermonstuff/100222/" /><meta property="article:section" content="sermonstuff" />
 
 
 
@@ -41,8 +42,9 @@
 
     
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ITC 2021"/>
-<meta name="twitter:description" content="On the Security of Proofs of Sequential Work in a Post-Quantum World Previous Next &nbsp; &nbsp; Page: / [Download] [Back]"/>
+<meta name="twitter:title" content="Kingdom Living"/>
+<meta name="twitter:description" content="October 2, 2022 Kingdom Living Part 6: Listening to Jesus &ldquo;Live in Joyful Obedience&rdquo; Christ Came to Fulfill the Law
+17 “Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them. 18 For truly, I say to you, until heaven and earth pass away, not an iota, not a dot, will pass from the Law until all is accomplished."/>
 
     <link rel="stylesheet" href="/style.min.5297c96c59a52afaa5bcda4a6cedf3813081f64025c209b25b2ee6d0c8f74d462b625ad3404a92a14d7a51b4ec0a420337ae70f426fa4bce2d5f7459a3ca7274.css" integrity="sha512-UpfJbFmlKvqlvNpKbO3zgTCB9kAlwgmyWy7m0Mj3TUYrYlrTQEqSoU16UbTsCkIDN65w9Cb6S84tX3RZo8pydA==">
 
@@ -152,203 +154,34 @@
 <article class="line-numbers">
     
     
-    <h2 id="on-the-security-of-proofs-of-sequential-work-in-a-post-quantum-world">On the Security of Proofs of Sequential Work in a Post-Quantum World</h2>
-<p><script type="text/javascript" src= '/js/build/pdf.js'></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-  display: none;
-}
-
-#paginator {
-  display: none;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#loadingWrapper {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 350px;
-}
-
-#loading {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 3px solid #d2d0d0;;
-  border-radius: 50%;
-  border-top-color: #383838;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
-}
-
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <div id="loadingWrapper">
-      <div id="loading"></div>
-    </div>
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-var url = "https:\/\/lee2856.github.io\/" + '..\/docs\/itc2021.pdf';
-
-var hidePaginator = "" === "true";
-var hideLoader = "" === "true";
-var selectedPageNum = parseInt("") || 1;
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/lee2856.github.io\/" + '/js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = selectedPageNum,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d'),
-    paginator = document.getElementById("paginator"),
-    loadingWrapper = document.getElementById('loadingWrapper');
-
-
-
-showPaginator();
-showLoader();
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      showContent();
-
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function showContent() {
-  loadingWrapper.style.display = 'none';
-  canvas.style.display = 'block';
-}
-
-
-
-function showLoader() {
-  if(hideLoader) return
-  loadingWrapper.style.display = 'flex';
-  canvas.style.display = 'none';
-}
-
-
-
-function showPaginator() {
-  if(hidePaginator) return
-  paginator.style.display = 'block';
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  var numPages = pdfDoc.numPages;
-  document.getElementById('page_count').textContent = numPages;
-
-  
-  if(pageNum > numPages) {
-    pageNum = numPages
-  }
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-
-<a href="../../../docs/itc2021.pdf">[Download]</a> <a href="../../talks">[Back]</a></p>
+    <h2 id="october-2-2022">October 2, 2022</h2>
+<h3 id="kingdom-living-part-6-listening-to-jesus-live-in-joyful-obedience">Kingdom Living Part 6: Listening to Jesus &ldquo;Live in Joyful Obedience&rdquo;</h3>
+<blockquote>
+<p><em><strong>Christ Came to Fulfill the Law</strong></em><br>
+<em>17 “Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them. 18 For truly, I say to you, until heaven and earth pass away, not an iota, not a dot, will pass from the Law until all is accomplished. 19 Therefore whoever relaxes one of the least of these commandments and teaches others to do the same will be called least in the kingdom of heaven, but whoever does them and teaches them will be called great in the kingdom of heaven. 20 For I tell you, unless your righteousness exceeds that of the scribes and Pharisees, you will never enter the kingdom of heaven. (Matthew 5:17-20)</em></p>
+</blockquote>
+<p>A <em>thesis statement</em> of the sermon of the mount is &ldquo;radical repentance&rdquo;. He fuels you with freedom and on our side, we enjoy &lsquo;obedience&rsquo;.</p>
+<p><strong>1. Think rightly about Christ (vs.17-18)</strong></p>
+<p>The Bible has a point &ndash; the name of Jesus. The Old Testament is a setting to set up the display of Jesus.</p>
+<blockquote>
+<p><em>5 “Behold, the days are coming, declares the Lord, when I will raise up for David a righteous Branch, and he shall reign as king and deal wisely, and shall execute justice and righteousness in the land. (Jeremiah 23:5)</em></p>
+</blockquote>
+<blockquote>
+<p><em>13 Christ redeemed us from the curse of the law by becoming a curse for us—for it is written, “Cursed is everyone who is hanged on a tree”— 14 so that in Christ Jesus the blessing of Abraham might come to the Gentiles, so that we might receive the promised Spirit through faith. (Galatians 3:13-14)</em></p>
+</blockquote>
+<p>The foundation on which you obey God is in Christ you already have. Pay attention to what Jesus says in the upcoming weeks.</p>
+<p><strong>2. Live fully for Christ (vs.19-20)</strong></p>
+<p>Pharisees were serious about the laws. They even had a law for the laws. However, the law replaced God of laws.</p>
+<blockquote>
+<p><em>2 For I bear them witness that they have a zeal for God, but not according to knowledge. 3 For, being ignorant of the righteousness of God, and seeking to establish their own, they did not submit to God&rsquo;s righteousness. 4 For Christ is the end of the law for righteousness to everyone who believes. (Romans 10:2-4)</em></p>
+</blockquote>
+<p>The rules do not transform people; Christ transforms people.<br>
+We need a <em>Christ-centered life</em>: stay close to him. Then you will be able to exceeds that of the scribes and Pharisees.<br>
+Obedience is the fruit of the gospel.</p>
+<p>Prepare your heart for the next week, on the right foundation (and with the right motivation).<br>
+Check your pride, and listen.</p>
+<p>(Sermon given by Abraham Cremeens. <a href="https://youtu.be/-wXsxCkIVwQ?t=1313">[Video]</a>)<br>
+<a href="../../personal">[back]</a></p>
 
 </article>
 </div>

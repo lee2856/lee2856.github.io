@@ -20,7 +20,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href='/favicon.ico' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ITC 2021 - Seunghoon Lee</title>
+    <title>Kingdom Living - Seunghoon Lee</title>
 
     
 
@@ -29,10 +29,11 @@
     
 
     
-        <meta property="og:title" content="ITC 2021" />
-<meta property="og:description" content="On the Security of Proofs of Sequential Work in a Post-Quantum World Previous Next &nbsp; &nbsp; Page: / [Download] [Back]" />
+        <meta property="og:title" content="Kingdom Living" />
+<meta property="og:description" content="October 9, 2022 Kingdom Living Part 7: Listening to Jesus Anger
+21 “You have heard that it was said to those of old, ‘You shall not murder; and whoever murders will be liable to judgment.’ 22 But I say to you that everyone who is angry with his brother will be liable to judgment; whoever insults his brother will be liable to the council; and whoever says, ‘You fool!’ will be liable to the hell of fire." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lee2856.github.io/talkslides/itc2021/" /><meta property="article:section" content="talkslides" />
+<meta property="og:url" content="https://lee2856.github.io/sermonstuff/100922/" /><meta property="article:section" content="sermonstuff" />
 
 
 
@@ -41,8 +42,9 @@
 
     
         <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ITC 2021"/>
-<meta name="twitter:description" content="On the Security of Proofs of Sequential Work in a Post-Quantum World Previous Next &nbsp; &nbsp; Page: / [Download] [Back]"/>
+<meta name="twitter:title" content="Kingdom Living"/>
+<meta name="twitter:description" content="October 9, 2022 Kingdom Living Part 7: Listening to Jesus Anger
+21 “You have heard that it was said to those of old, ‘You shall not murder; and whoever murders will be liable to judgment.’ 22 But I say to you that everyone who is angry with his brother will be liable to judgment; whoever insults his brother will be liable to the council; and whoever says, ‘You fool!’ will be liable to the hell of fire."/>
 
     <link rel="stylesheet" href="/style.min.5297c96c59a52afaa5bcda4a6cedf3813081f64025c209b25b2ee6d0c8f74d462b625ad3404a92a14d7a51b4ec0a420337ae70f426fa4bce2d5f7459a3ca7274.css" integrity="sha512-UpfJbFmlKvqlvNpKbO3zgTCB9kAlwgmyWy7m0Mj3TUYrYlrTQEqSoU16UbTsCkIDN65w9Cb6S84tX3RZo8pydA==">
 
@@ -152,203 +154,36 @@
 <article class="line-numbers">
     
     
-    <h2 id="on-the-security-of-proofs-of-sequential-work-in-a-post-quantum-world">On the Security of Proofs of Sequential Work in a Post-Quantum World</h2>
-<p><script type="text/javascript" src= '/js/build/pdf.js'></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-  display: none;
-}
-
-#paginator {
-  display: none;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#loadingWrapper {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 350px;
-}
-
-#loading {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 3px solid #d2d0d0;;
-  border-radius: 50%;
-  border-top-color: #383838;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
-}
-
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <div id="loadingWrapper">
-      <div id="loading"></div>
-    </div>
-    <canvas id="the-canvas"></canvas>
-</div>
-
-<script type="text/javascript">
-window.onload = function() {
-
-
-var url = "https:\/\/lee2856.github.io\/" + '..\/docs\/itc2021.pdf';
-
-var hidePaginator = "" === "true";
-var hideLoader = "" === "true";
-var selectedPageNum = parseInt("") || 1;
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/lee2856.github.io\/" + '/js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = selectedPageNum,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d'),
-    paginator = document.getElementById("paginator"),
-    loadingWrapper = document.getElementById('loadingWrapper');
-
-
-
-showPaginator();
-showLoader();
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      showContent();
-
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function showContent() {
-  loadingWrapper.style.display = 'none';
-  canvas.style.display = 'block';
-}
-
-
-
-function showLoader() {
-  if(hideLoader) return
-  loadingWrapper.style.display = 'flex';
-  canvas.style.display = 'none';
-}
-
-
-
-function showPaginator() {
-  if(hidePaginator) return
-  paginator.style.display = 'block';
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  var numPages = pdfDoc.numPages;
-  document.getElementById('page_count').textContent = numPages;
-
-  
-  if(pageNum > numPages) {
-    pageNum = numPages
-  }
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-
-<a href="../../../docs/itc2021.pdf">[Download]</a> <a href="../../talks">[Back]</a></p>
+    <h2 id="october-9-2022">October 9, 2022</h2>
+<h3 id="kingdom-living-part-7-listening-to-jesus">Kingdom Living Part 7: Listening to Jesus</h3>
+<blockquote>
+<p><em><strong>Anger</strong></em><br>
+<em>21 “You have heard that it was said to those of old, ‘You shall not murder; and whoever murders will be liable to judgment.’ 22 But I say to you that everyone who is angry with his brother will be liable to judgment; whoever insults his brother will be liable to the council; and whoever says, ‘You fool!’ will be liable to the hell of fire. 23 So if you are offering your gift at the altar and there remember that your brother has something against you, 24 leave your gift there before the altar and go. First be reconciled to your brother, and then come and offer your gift. 25 Come to terms quickly with your accuser while you are going with him to court, lest your accuser hand you over to the judge, and the judge to the guard, and you be put in prison. 26 Truly, I say to you, you will never get out until you have paid the last penny. (Matthew 5:21-26)</em></p>
+</blockquote>
+<p>Repeated: &ldquo;You have heard that it was said&hellip; But I say to you&hellip;&rdquo;</p>
+<p><strong>Hostility to Reconciliation</strong></p>
+<p>It is not about every anger; only &lsquo;sinful&rsquo; anger<br>
+Premise: urgently pursue Reconciliation (<a href="https://www.biblegateway.com/passage/?search=Genesis+9%3A6&amp;version=ESV">Genesis 9:6</a>, <a href="https://www.biblegateway.com/passage/?search=Proverbs+12%3A18&amp;version=ESV">Proverbs 12:18</a>, <a href="https://www.biblegateway.com/passage/?search=Proverbs+25%3A28&amp;version=ESV">Proverbs 25:28</a>, <a href="https://www.biblegateway.com/passage/?search=Proverbs+29%3A11&amp;version=ESV">Proverbs 29:11</a>)</p>
+<p>Anger makes prioritize yourself, and use it to achieve what you want.<br>
+Would you invite hurricane inside your house? That hurricane is you.<br>
+Ed Welch said, <strong><em>Anger looks like Satan&hellip; and it summons him.</em></strong><br>
+Check your heart. There is a war inside.</p>
+<p><img src="/downward.jpeg" alt="sermondrawing"></p>
+<p>Reconciliation <strong>is</strong> your worship (vs.23-24). Do not make excuses, go!<br>
+Our arrogance can blind us. It is not about winning; it is loving.<br>
+<strong><em>Reconciliation looks like Jesus, and it honors him.</em></strong> (<a href="https://www.biblegateway.com/passage/?search=Romans+5%3A10&amp;version=ESV">Romans 5:10</a>)</p>
+<p><img src="/upward.jpeg" alt="sermondrawing"></p>
+<p>Reconciliation is simple but supernatural.<br>
+Do not make your fear and embarrassment hold you back.</p>
+<p>Is there someone you need to reconcile with? Just say three things:</p>
+<ul>
+<li>I am sorry.</li>
+<li>What I did was wrong.</li>
+<li>Will you forgive me?</li>
+</ul>
+<p>Sense the urgency that we have.</p>
+<p>(Sermon given by Abraham Cremeens. <a href="https://youtu.be/tBnqfSVAjqU?t=830">[Video]</a>)<br>
+<a href="../../personal">[back]</a></p>
 
 </article>
 </div>
