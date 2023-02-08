@@ -30,12 +30,11 @@
 
     
         <meta property="og:title" content="Publications" />
-<meta property="og:description" content="Publications The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.
-Jeremiah Blocki, Blake Holman, and Seunghoon Lee
-In TCC 2022. [Full Version] [abstract] The classical (parallel) black pebbling game is a useful abstraction which allows us to analyze the resources (space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$. Of particular interest in the field of cryptography are data-independent memory-hard functions $f_{G,H}$ which are defined by a directed acyclic graph (DAG) $G$ and a cryptographic hash function $H$." />
+<meta property="og:description" content="Publications Differentially Private $L_2$-Heavy Hitters in the Sliding Window Model.
+Jeremiah Blocki, Seunghoon Lee, Tamalika Mukherjee, and Samson Zhou
+In ICLR 2023. [abstract] The data management of large companies often prioritize more recent data, as a source of higher accuracy prediction than outdated data. For example, the Facebook data policy retains user search histories for $6$ months while the Google data retention policy states that browser information may be stored for up to $9$ months." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lee2856.github.io/publications/" /><meta property="article:section" content="" />
-
 
 
 
@@ -44,9 +43,9 @@ In TCC 2022. [Full Version] [abstract] The classical (parallel) black pebbling g
     
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Publications"/>
-<meta name="twitter:description" content="Publications The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.
-Jeremiah Blocki, Blake Holman, and Seunghoon Lee
-In TCC 2022. [Full Version] [abstract] The classical (parallel) black pebbling game is a useful abstraction which allows us to analyze the resources (space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$. Of particular interest in the field of cryptography are data-independent memory-hard functions $f_{G,H}$ which are defined by a directed acyclic graph (DAG) $G$ and a cryptographic hash function $H$."/>
+<meta name="twitter:description" content="Publications Differentially Private $L_2$-Heavy Hitters in the Sliding Window Model.
+Jeremiah Blocki, Seunghoon Lee, Tamalika Mukherjee, and Samson Zhou
+In ICLR 2023. [abstract] The data management of large companies often prioritize more recent data, as a source of higher accuracy prediction than outdated data. For example, the Facebook data policy retains user search histories for $6$ months while the Google data retention policy states that browser information may be stored for up to $9$ months."/>
 
     <link rel="stylesheet" href="/style.min.5297c96c59a52afaa5bcda4a6cedf3813081f64025c209b25b2ee6d0c8f74d462b625ad3404a92a14d7a51b4ec0a420337ae70f426fa4bce2d5f7459a3ca7274.css" integrity="sha512-UpfJbFmlKvqlvNpKbO3zgTCB9kAlwgmyWy7m0Mj3TUYrYlrTQEqSoU16UbTsCkIDN65w9Cb6S84tX3RZo8pydA==">
 
@@ -159,6 +158,15 @@ In TCC 2022. [Full Version] [abstract] The classical (parallel) black pebbling g
     <h2 id="publications">Publications</h2>
 <ul>
 <li>
+<p><strong>Differentially Private $L_2$-Heavy Hitters in the Sliding Window Model.</strong><br>
+<a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a>, <strong>Seunghoon Lee</strong>, <a href="https://web.ics.purdue.edu/~tmukherj/">Tamalika Mukherjee</a>, and <a href="https://samsonzhou.github.io/">Samson Zhou</a><br>
+In <a href="https://iclr.cc/Conferences/2023"><em>ICLR 2023</em></a>. <details>
+  <summary>[abstract]</summary>
+  <p style="line-height:1.2"><font size="2">The data management of large companies often prioritize more recent data, as a source of higher accuracy prediction than outdated data. For example, the Facebook data policy retains user search histories for $6$ months while the Google data retention policy states that browser information may be stored for up to $9$ months. These policies are captured by the sliding window model, in which only the most recent $W$ statistics form the underlying dataset. In this paper, we consider the problem of privately releasing the $L_2$-heavy hitters in the sliding window model, which include $L_p$-heavy hitters for $p\le 2$ and in some sense are the strongest possible guarantees that can be achieved using polylogarithmic space, but cannot be handled by existing techniques due to the sub-additivity of the $L_2$ norm. Moreover, existing non-private sliding window algorithms use the smooth histogram framework, which has high sensitivity. To overcome these barriers, we introduce the first differentially private algorithm for $L_2$-heavy hitters in the sliding window model by initiating a number of $L_2$-heavy hitter algorithms across the stream with significantly lower threshold. Similarly, we augment the algorithms with an approximate frequency tracking algorithm with significantly higher accuracy. We then use smooth sensitivity and statistical distance arguments to show that we can add noise proportional to an estimation of the $L_2$ norm. To the best of our knowledge, our techniques are the first to privately release statistics that are related to a sub-additive function in the sliding window model, and may be of independent interest to future differentially private algorithmic design in the sliding window model.</font></p>
+</details>
+</p>
+</li>
+<li>
 <p><strong>The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a>, <a href="https://blake-holman.github.io/">Blake Holman</a>, and <strong>Seunghoon Lee</strong><br>
 In <a href="https://tcc.iacr.org/2022/"><em>TCC 2022</em></a>. <a href="https://arxiv.org/pdf/2110.04191.pdf">[Full Version]</a> <details>
@@ -239,7 +247,7 @@ wire. We introduce new forms of logic circuits such as NOT, AND, OR gates, a cur
                 
             </div>
 <footer>
-    <article>Copyright © 2022 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: October 16, 2022.</article>
+    <article>Copyright © 2022-2023 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: February 8, 2023.</article>
 </footer>
 
 </main>

@@ -180,9 +180,9 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Publications The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.
-Jeremiah Blocki, Blake Holman, and Seunghoon Lee
-In TCC 2022. [Full Version] [abstract] The classical (parallel) black pebbling game is a useful abstraction which allows us to analyze the resources (space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$. Of particular interest in the field of cryptography are data-independent memory-hard functions $f_{G,H}$ which are defined by a directed acyclic graph (DAG) $G$ and a cryptographic hash function $H$.</description>
+      <description>Publications Differentially Private $L_2$-Heavy Hitters in the Sliding Window Model.
+Jeremiah Blocki, Seunghoon Lee, Tamalika Mukherjee, and Samson Zhou
+In ICLR 2023. [abstract] The data management of large companies often prioritize more recent data, as a source of higher accuracy prediction than outdated data. For example, the Facebook data policy retains user search histories for $6$ months while the Google data retention policy states that browser information may be stored for up to $9$ months.</description>
     </item>
     
     <item>
@@ -218,12 +218,21 @@ In TCC 2022. [Full Version] [abstract] The classical (parallel) black pebbling g
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/talks/</guid>
-      <description>Talks On Explicit Constructions of Extremely Depth Robust Graphs.
+      <description>Talks The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.
+TCC 2022, in Chicago, IL. [Slides] [Video] On Explicit Constructions of Extremely Depth Robust Graphs.
 STACS 2022, on Zoom. [Slides] [Video] On the Security of Proofs of Sequential Work in a Post-Quantum World.
 ITC 2021, on Zoom. [Slides] [Video] Approximating Cumulative Pebbling Cost is Unique Games Hard.
-ITCS 2020, in Seattle, WA. [Slides] Approximating Cumulative Pebbling Cost is Unique Games Hard.
-Purdue Crypto Reading Group. [Slides] On the Multi-User Security of Short Schnorr Signatures.
-Weekly Lab Meeting.</description>
+ITCS 2020, in Seattle, WA. [Slides] Approximating Cumulative Pebbling Cost is Unique Games Hard.</description>
+    </item>
+    
+    <item>
+      <title>TCC 2022</title>
+      <link>https://lee2856.github.io/talkslides/tcc2022/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/tcc2022/</guid>
+      <description>TCC 2022: The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
+(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, etc.)</description>
     </item>
     
     <item>
