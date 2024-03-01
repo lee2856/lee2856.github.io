@@ -180,9 +180,9 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Preprints The Impact of Reversibility on Parallel Pebbling.
+      <description>Authors are listed in alphabetical order by their last name. Preprints The Impact of Reversibility on Parallel Pebbling.
 Jeremiah Blocki, Blake Holman, and Seunghoon Lee
-[Full Version] [abstract] The (parallel) classical black pebbling game is a helpful abstraction which allows us to analyze the resources (time, space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$ on a (parallel) computer. In particular, the parallel black pebbling game has been used as a tool to quantify the (in)security of Data-Independent Memory-Hard Functions (iMHFs).</description>
+Cryptology ePrint Archive. [Full Version] [abstract] The (parallel) classical black pebbling game is a helpful abstraction which allows us to analyze the resources (time, space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$ on a (parallel) computer. In particular, the parallel black pebbling game has been used as a tool to quantify the (in)security of Data-Independent Memory-Hard Functions (iMHFs).</description>
     </item>
     
     <item>
