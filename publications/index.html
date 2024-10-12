@@ -31,9 +31,9 @@
 
     
         <meta property="og:title" content="Publications" />
-<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints The Impact of Reversibility on Parallel Pebbling.
-Jeremiah Blocki, Blake Holman, and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] The (parallel) classical black pebbling game is a helpful abstraction which allows us to analyze the resources (time, space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$ on a (parallel) computer. In particular, the parallel black pebbling game has been used as a tool to quantify the (in)security of Data-Independent Memory-Hard Functions (iMHFs)." />
+<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints A Tight Lower Bound on the TdScrypt Trapdoor Memory-Hard Function.
+Jeremiah Blocki and Seunghoon Lee
+Cryptology ePrint Archive. [To appear] [abstract] A trapdoor Memory-Hard Function is a function that is memory-hard to evaluate for any party who does not have a trapdoor, but is substantially less expensive to evaluate with the trapdoor. Biryukov and Perin (ASIACRYPT 2017) introduced the first candidate trapdoor Memory-Hard Function called Diodon which modifies a Memory-Hard Function called Scrypt by replacing a hash chain with repeated squaring modulo a composite number $N=pq$." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lee2856.github.io/publications/" /><meta property="article:section" content="" />
 
@@ -44,9 +44,9 @@ Cryptology ePrint Archive. [Full Version] [abstract] The (parallel) classical bl
 
     
         <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Publications"/>
-<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints The Impact of Reversibility on Parallel Pebbling.
-Jeremiah Blocki, Blake Holman, and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] The (parallel) classical black pebbling game is a helpful abstraction which allows us to analyze the resources (time, space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$ on a (parallel) computer. In particular, the parallel black pebbling game has been used as a tool to quantify the (in)security of Data-Independent Memory-Hard Functions (iMHFs)."/>
+<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints A Tight Lower Bound on the TdScrypt Trapdoor Memory-Hard Function.
+Jeremiah Blocki and Seunghoon Lee
+Cryptology ePrint Archive. [To appear] [abstract] A trapdoor Memory-Hard Function is a function that is memory-hard to evaluate for any party who does not have a trapdoor, but is substantially less expensive to evaluate with the trapdoor. Biryukov and Perin (ASIACRYPT 2017) introduced the first candidate trapdoor Memory-Hard Function called Diodon which modifies a Memory-Hard Function called Scrypt by replacing a hash chain with repeated squaring modulo a composite number $N=pq$."/>
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -188,12 +188,23 @@ Cryptology ePrint Archive. [Full Version] [abstract] The (parallel) classical bl
     <h6 id="authors-are-listed-in-alphabetical-order-by-their-last-name">Authors are listed in alphabetical order by their last name.</h6>
 <h2 id="preprints">Preprints</h2>
 <ul>
-<li><strong>The Impact of Reversibility on Parallel Pebbling.</strong><br>
+<li>
+<p><strong>A Tight Lower Bound on the TdScrypt Trapdoor Memory-Hard Function.</strong><br>
+<a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee<br>
+Cryptology ePrint Archive. [To appear] <details>
+  <summary>[abstract]</summary>
+  <p style="line-height:1.2"><font size="2">A trapdoor Memory-Hard Function is a function that is memory-hard to evaluate for any party who does not have a trapdoor, but is substantially less expensive to evaluate with the trapdoor. Biryukov and Perin (ASIACRYPT 2017) introduced the first candidate trapdoor Memory-Hard Function called Diodon which modifies a Memory-Hard Function called Scrypt by replacing a hash chain with repeated squaring modulo a composite number $N=pq$. The trapdoor, which consists of the prime factors $p$ and $q$, allows one to compute the function with significantly reduced cumulative memory cost (CMC) $O( n \log n \log^2 N )$ where $n$ denotes the running time parameter, e.g., the length of the hash chain or repeated squaring chain. By contrast, the best-known algorithm to compute Diodon without the trapdoor has the CMC $O(n^2\log N)$. Auerbach et al. (EUROCRYPT 2024) provided the first provable lower bound on the CMC of TdScrypt &mdash; a specific instantiation of Diodon. In particular, in idealized models, they proved that the CMC of TdScrypt is $\Omega(\frac{n^2}{\log n}\log N)$ which almost matches the upper bound $O(n^2\log N)$ but is off by a multiplicative $\log n$ factor. In this work, we show how to tighten the analysis of Auerbach et al. (EUROCRYPT 2024) and eliminate the gap. In particular, our results imply that TdScrypt has the CMC at least $\Omega(n^2\log N)$.</font></p>
+</details>
+</p>
+</li>
+<li>
+<p><strong>The Impact of Reversibility on Parallel Pebbling.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a>, <a href="https://blake-holman.github.io/">Blake Holman</a>, and Seunghoon Lee<br>
 Cryptology ePrint Archive. <a href="https://eprint.iacr.org/2024/334.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
-  <p style="line-height:1.2"><font size="2">The (parallel) classical black pebbling game is a helpful abstraction which allows us to analyze the resources (time, space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$ on a (parallel) computer. In particular, the parallel black pebbling game has been used as a tool to quantify the (in)security of Data-Independent Memory-Hard Functions (iMHFs). Recently Blocki et al. (TCC 2022) introduced the parallel reversible pebbling game as a tool to analyze resource requirements when we additionally require that computation is reversible. Intuitively, the parallel reversible pebbling game extends the classical parallel black pebbling game by imposing restrictions on when pebbles can be removed. By contrast, the classical black pebbling game imposes no restrictions on when pebbles can be removed to free up space. One of the primary motivations of the parallel reversible pebbling game is to provide a tool to analyze the full cost of quantum preimage attacks against an iMHF. However, while there is an extensive line of work analyzing pebbling complexity in the (parallel) black pebbling game, comparatively little is known about the parallel reversible pebbling game. Our first result is a lower bound of $\Omega\left(N^{1+1/\sqrt{\log N}} \right)$ on the reversible cumulative pebbling cost for a line graph on $N$ nodes. This yields a separation between classical and reversible pebbling costs demonstrating that the reversibility constraint can increase cumulative pebbling costs (and space-time costs) by a multiplicative factor of $\Omega\left(N^{1/\sqrt{\log N}} \right)$ &mdash; the classical pebbling cost (space-time or cumulative) for a line graph is just $\mathcal{O}(N)$. On the positive side, we prove that <em>any</em> classical parallel pebbling can be transformed into a reversible pebbling strategy whilst increasing space-time (resp. cumulative memory) costs by a multiplicative factor of at most $\mathcal{O}\left(N^{2/\sqrt{\log N}}\right)$ (resp. $\mathcal{O}\left(N^{\mathcal{O}(1)/\sqrt[4]{\log N}}\right)$). We also analyze the impact of the reversibility constraint on the cumulative pebbling cost of depth-robust and depth-reducible DAGs exploiting reversibility to improve constant factors in a prior lower bound of  Alwen et al. (EUROCRYPT 2017). For depth-reducible DAGs we show that the state-of-the-art recursive pebbling techniques of Alwen et al. (EUROCRYPT 2017) can be converted into a recursive reversible pebbling attack without any asymptotic increases in pebbling costs. Finally, we extend a result of Blocki et al. (ITCS 2020) to show that it is Unique Games hard to approximate the reversible cumulative pebbling cost of a DAG $G$ to within any constant factor.</font></p>
+  <p style="line-height:1.2"><font size="2">The (parallel) classical black pebbling game is a helpful abstraction which allows us to analyze the resources (time, space, space-time, cumulative space) necessary to evaluate a function $f$ with a static data-dependency graph $G$ on a (parallel) computer. In particular, the parallel black pebbling game has been used as a tool to quantify the (in)security of Data-Independent Memory-Hard Functions (iMHFs). However, the classical black pebbling game is not suitable to analyze the cost of quantum preimage attack. Thus, Blocki et al. (TCC 2022) introduced the parallel reversible pebbling game as a tool to analyze resource requirements for a quantum computer. While there is an extensive line of work analyzing pebbling complexity in the (parallel) black pebbling game, comparatively little is known about the parallel reversible pebbling game. Our first result is a lower bound of $\Omega\left(N^{1+\sqrt{\frac{ 2-o(1)}{\log N}}} \right)$ on the reversible cumulative pebbling cost for a line graph on $N$ nodes. This yields a separation between classical and reversible pebbling costs demonstrating that the reversibility constraint can increase cumulative pebbling costs (and space-time costs) by a multiplicative factor of $N^{(\sqrt 2 + o(1))/\sqrt{\log N}}$ &mdash; the classical pebbling cost (space-time or cumulative) for a line graph is just $\mathcal{O}(N)$. On the positive side, we prove that any classical parallel pebbling can be transformed into a reversible pebbling strategy whilst increasing space-time (resp. cumulative memory) costs by a multiplicative factor of at most $\mathcal{O}\left(N^{\sqrt{\frac{8}{\log N}}}\right)$ (resp. $\mathcal{O}\left(N^{\mathcal{O}(1)/\sqrt[4]{\log N}}\right)$). We also analyze the impact of the reversibility constraint on the cumulative pebbling cost of depth-robust and depth-reducible DAGs exploiting reversibility to improve constant factors in a prior lower bound of  Alwen et al. (EUROCRYPT 2017). For depth-reducible DAGs we show that the state-of-the-art recursive pebbling techniques of Alwen et al. (EUROCRYPT 2017) can be converted into a recursive reversible pebbling attack without any asymptotic increases in pebbling costs. Finally, we extend a result of Blocki et al. (ITCS 2020) to show that it is Unique Games hard to approximate the reversible cumulative pebbling cost of a DAG $G$ to within any constant factor.</font></p>
 </details>
+</p>
 </li>
 </ul>
 <h2 id="publications">Publications</h2>
@@ -288,7 +299,7 @@ wire. We introduce new forms of logic circuits such as NOT, AND, OR gates, a cur
                 
             </div>
 <footer>
-    <article>Copyright © 2022-2024 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: May 13, 2024.</article>
+    <article>Copyright © 2022-2024 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: October 12, 2024.</article>
 </footer>
 
 </main>
