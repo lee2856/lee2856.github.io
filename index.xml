@@ -191,7 +191,7 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
       <guid>https://lee2856.github.io/publications/</guid>
       <description>Authors are listed in alphabetical order by their last name. Preprints A Tight Lower Bound on the TdScrypt Trapdoor Memory-Hard Function.
 Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [To appear] [abstract] A trapdoor Memory-Hard Function is a function that is memory-hard to evaluate for any party who does not have a trapdoor, but is substantially less expensive to evaluate with the trapdoor. Biryukov and Perin (ASIACRYPT 2017) introduced the first candidate trapdoor Memory-Hard Function called Diodon which modifies a Memory-Hard Function called Scrypt by replacing a hash chain with repeated squaring modulo a composite number $N=pq$.</description>
+Cryptology ePrint Archive. [Full Version] [abstract] A trapdoor Memory-Hard Function is a function that is memory-hard to evaluate for any party who does not have a trapdoor, but is substantially less expensive to evaluate with the trapdoor. Biryukov and Perin (ASIACRYPT 2017) introduced the first candidate trapdoor Memory-Hard Function called Diodon which modifies a Memory-Hard Function called Scrypt by replacing a hash chain with repeated squaring modulo a composite number $N=pq$.</description>
     </item>
     
     <item>
