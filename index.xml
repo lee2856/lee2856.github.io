@@ -189,9 +189,9 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Authors are listed in alphabetical order by their last name. Preprints A Tight Lower Bound on the TdScrypt Trapdoor Memory-Hard Function.
+      <description>Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security in Multiple Idealized Models with Applications to Schnorr Signatures and PSEC-KEM.
 Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] A trapdoor Memory-Hard Function is a function that is memory-hard to evaluate for any party who does not have a trapdoor, but is substantially less expensive to evaluate with the trapdoor. Biryukov and Perin (ASIACRYPT 2017) introduced the first candidate trapdoor Memory-Hard Function called Diodon which modifies a Memory-Hard Function called Scrypt by replacing a hash chain with repeated squaring modulo a composite number $N=pq$.</description>
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE.</description>
     </item>
     
     <item>
@@ -200,7 +200,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] A trapdoor Memory-Hard Func
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/awards/</guid>
-      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, and QIP 2025. Selected Grants and Awards [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
+      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, and IEEE S&amp;amp;P 2025. Selected Grants and Awards [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
     </item>
     
     <item>
