@@ -189,9 +189,9 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security in Multiple Idealized Models with Applications to Schnorr Signatures and PSEC-KEM.
-Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE.</description>
+      <description>Authors are listed in alphabetical order by their last name. Preprints Differentially Private Compression and the Sensitivity of LZ77.
+Jeremiah Blocki, Seunghoon Lee, and Brayan Sebastián Yepes Garcia
+arXiv Preprint. [Full Version] [abstract] We initiate the study of differentially private data-compression schemes motivated by the insecurity of the popular &amp;ldquo;Compress-Then-Encrypt&amp;rdquo; framework. Data compression is a useful tool which exploits redundancy in data to reduce storage/bandwidth when files are stored or transmitted.</description>
     </item>
     
     <item>
