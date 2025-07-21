@@ -17,3 +17,23 @@ body {
 	margin: 0 auto !important; 
 	float: none !important; 
 }
+
+/* Default link color
+a {
+  color: #FF0000;
+}*/
+
+/* Link color on hover */
+a:hover {
+  color: #EAAB00; /* Example: Waterloo Gold */
+}
+
+/* Visited link color
+a:visited {
+  color: #800080;
+}*/
+
+/* Active link color */
+a:active {
+  color: #00FF00; /* Example: Green */
+}
