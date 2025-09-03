@@ -31,9 +31,9 @@
 
     
         <meta property="og:title" content="Publications" />
-<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints Differentially Private Compression and the Sensitivity of LZ77.
-Jeremiah Blocki, Seunghoon Lee, and Brayan Sebastián Yepes Garcia
-arXiv Preprint. [Full Version] [abstract] We initiate the study of differentially private data-compression schemes motivated by the insecurity of the popular &ldquo;Compress-Then-Encrypt&rdquo; framework. Data compression is a useful tool which exploits redundancy in data to reduce storage/bandwidth when files are stored or transmitted." />
+<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.
+Jeremiah Blocki and Seunghoon Lee
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lee2856.github.io/publications/" /><meta property="article:section" content="" />
 
@@ -44,9 +44,9 @@ arXiv Preprint. [Full Version] [abstract] We initiate the study of differentiall
 
     
         <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Publications"/>
-<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints Differentially Private Compression and the Sensitivity of LZ77.
-Jeremiah Blocki, Seunghoon Lee, and Brayan Sebastián Yepes Garcia
-arXiv Preprint. [Full Version] [abstract] We initiate the study of differentially private data-compression schemes motivated by the insecurity of the popular &ldquo;Compress-Then-Encrypt&rdquo; framework. Data compression is a useful tool which exploits redundancy in data to reduce storage/bandwidth when files are stored or transmitted."/>
+<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.
+Jeremiah Blocki and Seunghoon Lee
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE."/>
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -188,37 +188,35 @@ arXiv Preprint. [Full Version] [abstract] We initiate the study of differentiall
     <h6 id="authors-are-listed-in-alphabetical-order-by-their-last-name">Authors are listed in alphabetical order by their last name.</h6>
 <h2 id="preprints">Preprints</h2>
 <ul>
-<li>
-<p><strong>Differentially Private Compression and the Sensitivity of LZ77.</strong><br>
-<a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a>, Seunghoon Lee, and Brayan Sebastián Yepes Garcia<br>
-arXiv Preprint. <a href="https://arxiv.org/pdf/2502.09584">[Full Version]</a> <details>
-  <summary>[abstract]</summary>
-  <p style="line-height:1.2"><font size="2">We initiate the study of differentially private data-compression schemes motivated by the insecurity of the popular &ldquo;Compress-Then-Encrypt&rdquo; framework. Data compression is a useful tool which exploits redundancy in data to reduce storage/bandwidth when files are stored or transmitted. However, if the contents of a file are confidential then the <em>length</em> of a compressed file might leak confidential information about the content of the file itself. Encrypting a compressed file does not eliminate this leakage as data encryption schemes are only designed to hide the <em>content</em> of confidential message instead of the <em>length</em> of the message. In our proposed <em>Differentially Private Compress-Then-Encrypt</em> framework, we add a random positive amount of padding to the compressed file to ensure that any leakage satisfies the rigorous privacy guarantee of $(\epsilon,\delta)$-differential privacy. The amount of padding that needs to be added depends on the sensitivity of the compression scheme to small changes in the input, i.e., to what degree can changing a single character of the input message impact the length of the compressed file. While some popular compression schemes are highly sensitive to small changes in the input, we argue that effective data compression schemes do not necessarily have high sensitivity. Our primary technical contribution is analyzing the fine-grained sensitivity of the LZ77 compression scheme (IEEE Trans. Inf. Theory 1977) which is one of the most common compression schemes used in practice. We show that the global sensitivity of the LZ77 compression scheme has the upper bound $\mathcal{O}(W^{2/3}\log n)$ where $W\leq n$ denotes the size of the sliding window. When $W=n$, we show the lower bound $\Omega(n^{2/3}\log^{1/3}n)$ for the global sensitivity of the LZ77 compression scheme which is tight up to a sublogarithmic factor.</font></p>
-</details>
-</p>
-</li>
-<li>
-<p><strong>On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.</strong><br>
+<li><strong>On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee<br>
 Cryptology ePrint Archive. <a href="https://eprint.iacr.org/2025/138.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
   <p style="line-height:1.2"><font size="2">In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE. This limited diversity raises concerns that an adversary with nation-state-level resources could perform a preprocessing attack, generating a hint that might later be exploited to break protocols built on these primitives. It is often notoriously challenging to analyze and upper bound the advantage of a preprocessing attacker even if we assume that we have idealized instantiations of our cryptographic primitives (ideal permutations, ideal ciphers, random oracles, generic groups). Coretti et al. (CRYPTO/EUROCRYPT'18) demonstrated a powerful framework to simplify the analysis of preprocessing attacks, but they only proved that their framework applies when the cryptographic protocol uses a single idealized primitive. In practice, however, cryptographic constructions often utilize multiple different cryptographic primitives.<br>
 We verify that Coretti et al. (CRYPTO/EUROCRYPT'18)&rsquo;s framework extends to settings with multiple idealized primitives and we apply this framework to analyze the multi-user security of (short) Schnorr Signatures and the CCA-security of PSEC-KEM against pre-processing attackers in the Random Oracle Model (ROM) plus the Generic Group Model (GGM). Prior work of Blocki and Lee (EUROCRYPT'22) used complicated compression arguments to analyze the security of <em>key-prefixed</em> short Schnorr signatures where the random oracle is salted with the user&rsquo;s public key. However, the security analysis did not extend to standardized implementations of Schnorr Signatures (e.g., BSI-TR-03111 or ISO/IEC 14888-3) which do not adopt key-prefixing, but take other measures to protect against preprocessing attacks by disallowing signatures that use a preimage of $0$.  Blocki and Lee (EUROCRYPT'22) left the (in)security of such &ldquo;nonzero Schnorr Signature&rdquo; constructions as an open question. We fully resolve this open question demonstrating that (short) nonzero Schnorr Signatures are also secure against preprocessing attacks. We also analyze PSEC-KEM in the ROM+GGM demonstrating that this Key Encapsulation Mechanism (KEM) is CPA-secure against preprocessing attacks.</font></p>
 </details>
-</p>
 </li>
+</ul>
+<h2 id="publications">Publications</h2>
+<ul>
 <li>
 <p><strong>A Tight Lower Bound on the TdScrypt Trapdoor Memory-Hard Function.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee<br>
-Cryptology ePrint Archive. <a href="https://eprint.iacr.org/2024/1644.pdf">[Full Version]</a> <details>
+In <a href="https://cic.iacr.org/"><em>IACR Communications in Cryptology, Volume 2, Issue 3 (2025)</em></a>. <a href="https://eprint.iacr.org/2024/1644.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
   <p style="line-height:1.2"><font size="2">A trapdoor Memory-Hard Function is a function that is memory-hard to evaluate for any party who does not have a trapdoor, but is substantially less expensive to evaluate with the trapdoor. Biryukov and Perin (ASIACRYPT 2017) introduced the first candidate trapdoor Memory-Hard Function called Diodon which modifies a Memory-Hard Function called Scrypt by replacing a hash chain with repeated squaring modulo a composite number $N=pq$. The trapdoor, which consists of the prime factors $p$ and $q$, allows one to compute the function with significantly reduced cumulative memory cost (CMC) $O( n \log n \log^2 N )$ where $n$ denotes the running time parameter, e.g., the length of the hash chain or repeated squaring chain. By contrast, the best-known algorithm to compute Diodon without the trapdoor has the CMC $O(n^2\log N)$. Auerbach et al. (EUROCRYPT 2024) provided the first provable lower bound on the CMC of TdScrypt &mdash; a specific instantiation of Diodon. In particular, in idealized models, they proved that the CMC of TdScrypt is $\Omega(\frac{n^2}{\log n}\log N)$ which almost matches the upper bound $O(n^2\log N)$ but is off by a multiplicative $\log n$ factor. In this work, we show how to tighten the analysis of Auerbach et al. (EUROCRYPT 2024) and eliminate the gap. In particular, our results imply that TdScrypt has the CMC at least $\Omega(n^2\log N)$.</font></p>
 </details>
 </p>
 </li>
-</ul>
-<h2 id="publications">Publications</h2>
-<ul>
+<li>
+<p><strong>Differentially Private Compression and the Sensitivity of LZ77.</strong><br>
+<a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a>, Seunghoon Lee, and Brayan Sebastián Yepes Garcia<br>
+In <a href="https://tcc.iacr.org/2025/"><em>TCC 2025</em></a>. <a href="https://arxiv.org/pdf/2502.09584">[Full Version]</a> <details>
+  <summary>[abstract]</summary>
+  <p style="line-height:1.2"><font size="2">We initiate the study of differentially private data-compression schemes motivated by the insecurity of the popular &ldquo;Compress-Then-Encrypt&rdquo; framework. Data compression is a useful tool which exploits redundancy in data to reduce storage/bandwidth when files are stored or transmitted. However, if the contents of a file are confidential then the <em>length</em> of a compressed file might leak confidential information about the content of the file itself. Encrypting a compressed file does not eliminate this leakage as data encryption schemes are only designed to hide the <em>content</em> of confidential message instead of the <em>length</em> of the message. In our proposed <em>Differentially Private Compress-Then-Encrypt</em> framework, we add a random positive amount of padding to the compressed file to ensure that any leakage satisfies the rigorous privacy guarantee of $(\epsilon,\delta)$-differential privacy. The amount of padding that needs to be added depends on the sensitivity of the compression scheme to small changes in the input, i.e., to what degree can changing a single character of the input message impact the length of the compressed file. While some popular compression schemes are highly sensitive to small changes in the input, we argue that effective data compression schemes do not necessarily have high sensitivity. Our primary technical contribution is analyzing the fine-grained sensitivity of the LZ77 compression scheme (IEEE Trans. Inf. Theory 1977) which is one of the most common compression schemes used in practice. We show that the global sensitivity of the LZ77 compression scheme has the upper bound $\mathcal{O}(W^{2/3}\log n)$ where $W\leq n$ denotes the size of the sliding window. When $W=n$, we show the lower bound $\Omega(n^{2/3}\log^{1/3}n)$ for the global sensitivity of the LZ77 compression scheme which is tight up to a sublogarithmic factor.</font></p>
+</details>
+</p>
+</li>
 <li>
 <p><strong>The Impact of Reversibility on Parallel Pebbling.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a>, <a href="https://blake-holman.github.io/">Blake Holman</a>, and Seunghoon Lee<br>
@@ -318,7 +316,7 @@ wire. We introduce new forms of logic circuits such as NOT, AND, OR gates, a cur
                 
             </div>
 <footer>
-    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: August 1, 2025.</article>
+    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: September 2, 2025.</article>
 </footer>
 
 </main>
