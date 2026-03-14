@@ -16,6 +16,15 @@
     </item>
     
     <item>
+      <title>Act2Qrypt Virtual Seminar</title>
+      <link>https://lee2856.github.io/talkslides/act2qrypt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/act2qrypt/</guid>
+      <description>Act2Qrypt Virtual Seminar: Differentially Private Compression and the Sensitivity of LZ77 Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]</description>
+    </item>
+    
+    <item>
       <title>Crypto Reading Group</title>
       <link>https://lee2856.github.io/talkslides/readinggroup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -189,9 +198,9 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Authors are listed in alphabetical order by their last name. Preprints On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.
+      <description>Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
 Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE.</description>
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives.</description>
     </item>
     
     <item>
@@ -200,7 +209,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/awards/</guid>
-      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, IEEE S&amp;amp;P 2025, RANDOM 2025 and TCC 2025. Selected Grants and Awards [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
+      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, IEEE S&amp;amp;P 2025, RANDOM 2025, TCC 2025, Communications in Cryptology (Volume 2, Issue 4), DCC 2026, and ACNS 2026. Selected Grants and Awards [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
     </item>
     
     <item>
@@ -227,11 +236,11 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/talks/</guid>
-      <description>Talks On the Multi-User Security of Short Schnorr Signatures with Preprocessing.
-Purdue Crypto Reading Group. [Slides] The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.
-TCC 2022, in Chicago, IL. [Slides] [Video] On Explicit Constructions of Extremely Depth Robust Graphs.
-STACS 2022, on Zoom. [Slides] [Video] On the Security of Proofs of Sequential Work in a Post-Quantum World.
-ITC 2021, on Zoom. [Slides] [Video] Approximating Cumulative Pebbling Cost is Unique Games Hard.</description>
+      <description>Talks Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation).
+Tutte Colloquium, in Waterloo, ON, Canada. [Slides] Differentially Private Compression and the Sensitivity of LZ77.
+Act2Qrypt Virtual Seminar, on Zoom. [Slides] Differentially Private Compression and the Sensitivity of LZ77.
+TCC 2025, in Aarhus, Denmark. [Slides] On the Multi-User Security of Short Schnorr Signatures with Preprocessing.
+Purdue Crypto Reading Group. [Slides] The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.</description>
     </item>
     
     <item>
@@ -241,7 +250,17 @@ ITC 2021, on Zoom. [Slides] [Video] Approximating Cumulative Pebbling Cost is Un
       
       <guid>https://lee2856.github.io/talkslides/tcc2022/</guid>
       <description>TCC 2022: The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
-(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, etc.)</description>
+(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, présentation.app, etc.)</description>
+    </item>
+    
+    <item>
+      <title>TCC 2025</title>
+      <link>https://lee2856.github.io/talkslides/tcc2025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/tcc2025/</guid>
+      <description>TCC 2025: Differentially Private Compression and the Sensitivity of LZ77 Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
+(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, présentation.app, etc.)</description>
     </item>
     
     <item>
@@ -251,6 +270,16 @@ ITC 2021, on Zoom. [Slides] [Video] Approximating Cumulative Pebbling Cost is Un
       
       <guid>https://lee2856.github.io/teaching/</guid>
       <description>At Purdue University [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development) with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra) with Prof. David Gleich. [Spring 2018] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Daniel G. Aliaga and Prof. Gustavo Rodriguez-Rivera. [Fall 2017] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Mikhail Atallah and Prof.</description>
+    </item>
+    
+    <item>
+      <title>Tutte Colloquium</title>
+      <link>https://lee2856.github.io/talkslides/tutte2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/tutte2026/</guid>
+      <description>Tutte Colloquium: Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation) Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
+(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, présentation.app, etc.)</description>
     </item>
     
     <item>

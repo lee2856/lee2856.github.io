@@ -31,9 +31,9 @@
 
     
         <meta property="og:title" content="Publications" />
-<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.
+<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
 Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE." />
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lee2856.github.io/publications/" /><meta property="article:section" content="" />
 
@@ -44,9 +44,9 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
 
     
         <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Publications"/>
-<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.
+<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
 Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE."/>
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives."/>
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -188,12 +188,12 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
     <h6 id="authors-are-listed-in-alphabetical-order-by-their-last-name">Authors are listed in alphabetical order by their last name.</h6>
 <h2 id="preprints">Preprints</h2>
 <ul>
-<li><strong>On the Preprocessing Security of Nonzero Schnorr Signatures and PSEC-KEM.</strong><br>
+<li><strong>Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee<br>
 Cryptology ePrint Archive. <a href="https://eprint.iacr.org/2025/138.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
-  <p style="line-height:1.2"><font size="2">In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. For example, elliptic curve groups are typically instantiated using P-256, P-384, Curve25519, or Curve448, while block ciphers are commonly instantiated with AES, and hash functions with SHA-2, SHA-3, or SHAKE. This limited diversity raises concerns that an adversary with nation-state-level resources could perform a preprocessing attack, generating a hint that might later be exploited to break protocols built on these primitives. It is often notoriously challenging to analyze and upper bound the advantage of a preprocessing attacker even if we assume that we have idealized instantiations of our cryptographic primitives (ideal permutations, ideal ciphers, random oracles, generic groups). Coretti et al. (CRYPTO/EUROCRYPT'18) demonstrated a powerful framework to simplify the analysis of preprocessing attacks, but they only proved that their framework applies when the cryptographic protocol uses a single idealized primitive. In practice, however, cryptographic constructions often utilize multiple different cryptographic primitives.<br>
-We verify that Coretti et al. (CRYPTO/EUROCRYPT'18)&rsquo;s framework extends to settings with multiple idealized primitives and we apply this framework to analyze the multi-user security of (short) Schnorr Signatures and the CCA-security of PSEC-KEM against pre-processing attackers in the Random Oracle Model (ROM) plus the Generic Group Model (GGM). Prior work of Blocki and Lee (EUROCRYPT'22) used complicated compression arguments to analyze the security of <em>key-prefixed</em> short Schnorr signatures where the random oracle is salted with the user&rsquo;s public key. However, the security analysis did not extend to standardized implementations of Schnorr Signatures (e.g., BSI-TR-03111 or ISO/IEC 14888-3) which do not adopt key-prefixing, but take other measures to protect against preprocessing attacks by disallowing signatures that use a preimage of $0$.  Blocki and Lee (EUROCRYPT'22) left the (in)security of such &ldquo;nonzero Schnorr Signature&rdquo; constructions as an open question. We fully resolve this open question demonstrating that (short) nonzero Schnorr Signatures are also secure against preprocessing attacks. We also analyze PSEC-KEM in the ROM+GGM demonstrating that this Key Encapsulation Mechanism (KEM) is CPA-secure against preprocessing attacks.</font></p>
+  <p style="line-height:1.2"><font size="2">In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives. It is often notoriously challenging to analyze the advantage of a preprocessing attacker, even under idealized assumptions (e.g., random oracles, generic groups, etc.). Blocki and Lee (EUROCRYPT’22) analyzed the preprocessing security of <em>key-prefixed</em> short Schnorr signatures, where the random oracle is salted with the public key. However, their analysis did not extend to standardized implementations of Schnorr (e.g., ISO/IEC 14888-3), which do not adopt key-prefixing but disallow signatures that use a preimage of 0. The (in)security of such “(short) nonzero Schnorr signature” was left as an open question.
+In this paper, we fully resolve this open question, demonstrating that (short) nonzero Schnorr signatures are also secure against preprocessing attacks in the Random Oracle Model (ROM) plus the Generic Group Model (GGM). We also introduce new techniques to analyze security of hashed ElGamal-based KEMs in the ROM+GGM and use these techniques to prove the CCA security of PSEC-KEM against preprocessing attacks. To support our analyses in the ROM+GGM, we extend Coretti et al.’s framework (CRYPTO/EUROCRYPT’18) to settings with multiple idealized primitives and use it in our proofs.</font></p>
 </details>
 </li>
 </ul>
@@ -316,7 +316,7 @@ wire. We introduce new forms of logic circuits such as NOT, AND, OR gates, a cur
                 
             </div>
 <footer>
-    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: September 2, 2025.</article>
+    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: March 14, 2026.</article>
 </footer>
 
 </main>

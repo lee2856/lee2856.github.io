@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://lee2856.github.io/talkslides/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Act2Qrypt Virtual Seminar</title>
+      <link>https://lee2856.github.io/talkslides/act2qrypt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/act2qrypt/</guid>
+      <description>Act2Qrypt Virtual Seminar: Differentially Private Compression and the Sensitivity of LZ77 Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]</description>
+    </item>
+    
+    <item>
       <title>Crypto Reading Group</title>
       <link>https://lee2856.github.io/talkslides/readinggroup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -49,7 +58,27 @@
       
       <guid>https://lee2856.github.io/talkslides/tcc2022/</guid>
       <description>TCC 2022: The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
-(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, etc.)</description>
+(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, présentation.app, etc.)</description>
+    </item>
+    
+    <item>
+      <title>TCC 2025</title>
+      <link>https://lee2856.github.io/talkslides/tcc2025/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/tcc2025/</guid>
+      <description>TCC 2025: Differentially Private Compression and the Sensitivity of LZ77 Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
+(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, présentation.app, etc.)</description>
+    </item>
+    
+    <item>
+      <title>Tutte Colloquium</title>
+      <link>https://lee2856.github.io/talkslides/tutte2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkslides/tutte2026/</guid>
+      <description>Tutte Colloquium: Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation) Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
+(Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, présentation.app, etc.)</description>
     </item>
     
     <item>
