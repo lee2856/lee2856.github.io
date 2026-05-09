@@ -157,6 +157,18 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
     </item>
     
     <item>
+      <title>MATH 138 Online: Calculus II for Honours Mathematics</title>
+      <link>https://lee2856.github.io/courses/spring2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/courses/spring2026/</guid>
+      <description>MATH 138 Online: Calculus II for Honours Mathematics (Spring 2026) Course Information Instructor: Seunghoon Lee (seunghoon.lee@uwaterloo.ca) Office Hour: Wednesday at 2:30-3:30pm on Zoom (see LEARN for the link) Course Outline Course Materials: [LEARN] Piazza Course Schedule (Schedule subject to change)
+Week Module Assignments Week 1 Unit 0: Getting Started
+Unit 1: Integration (1.1, 1.2, 1.3) Week 2 Unit 1: Integration (1.4, 1.5, 1.6) Möbius Assignment &amp;mdash; Units 1.1-1.3
+(Due: May 19, Tuesday, at 5:00 pm)</description>
+    </item>
+    
+    <item>
       <title>Personal</title>
       <link>https://lee2856.github.io/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -209,7 +221,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/awards/</guid>
-      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, IEEE S&amp;amp;P 2025, RANDOM 2025, TCC 2025, Communications in Cryptology (Volume 2, Issue 4), DCC 2026, and ACNS 2026. Selected Grants and Awards [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
+      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, IEEE S&amp;amp;P 2025, RANDOM 2025, TCC 2025, Communications in Cryptology (Volume 2, Issue 4), DCC 2026, and ACNS 2026. Selected Grants and Awards [2025] Postdoctoral Mentor Award Nominee for the Office of the Vice Provost for Graduate Students and Postdoctoral Scholars, Purdue University [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
     </item>
     
     <item>
@@ -237,7 +249,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
       
       <guid>https://lee2856.github.io/talks/</guid>
       <description>Talks Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation).
-Tutte Colloquium, in Waterloo, ON, Canada. [Slides] Differentially Private Compression and the Sensitivity of LZ77.
+Tutte Colloquium, in Waterloo, ON, Canada. [Slides] [Video] Differentially Private Compression and the Sensitivity of LZ77.
 Act2Qrypt Virtual Seminar, on Zoom. [Slides] Differentially Private Compression and the Sensitivity of LZ77.
 TCC 2025, in Aarhus, Denmark. [Slides] On the Multi-User Security of Short Schnorr Signatures with Preprocessing.
 Purdue Crypto Reading Group. [Slides] The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.</description>
@@ -269,7 +281,7 @@ Purdue Crypto Reading Group. [Slides] The Parallel Reversible Pebbling Game: Ana
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/teaching/</guid>
-      <description>At Purdue University [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development) with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra) with Prof. David Gleich. [Spring 2018] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Daniel G. Aliaga and Prof. Gustavo Rodriguez-Rivera. [Fall 2017] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Mikhail Atallah and Prof.</description>
+      <description>At the University of Waterloo [Spring 2026] MATH 138 Online (Calculus II for Honours Mathematics). [Course Website] At Purdue University [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development) with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra) with Prof. David Gleich. [Spring 2018] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Daniel G. Aliaga and Prof.</description>
     </item>
     
     <item>
@@ -280,6 +292,15 @@ Purdue Crypto Reading Group. [Slides] The Parallel Reversible Pebbling Game: Ana
       <guid>https://lee2856.github.io/talkslides/tutte2026/</guid>
       <description>Tutte Colloquium: Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation) Previous Next &amp;nbsp; &amp;nbsp; Page: / [Download] [Back]
 (Too see the animation effect, please download the pdf and open with a pdf reader that supports auto transition, e.g., adobe reader, okular, présentation.app, etc.)</description>
+    </item>
+    
+    <item>
+      <title>Tutte Colloquium 202</title>
+      <link>https://lee2856.github.io/talkvideos/tutte2026/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lee2856.github.io/talkvideos/tutte2026/</guid>
+      <description>Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation) [Back]</description>
     </item>
     
     <item>

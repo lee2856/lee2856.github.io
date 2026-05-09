@@ -21,7 +21,7 @@
     <meta charset="utf-8">
     <link rel="shortcut icon" href='/favicon.ico' type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Weekly Lab Meeting - Seunghoon Lee</title>
+    <title>Tutte Colloquium 202 - Seunghoon Lee</title>
 
     
 
@@ -30,10 +30,10 @@
     
 
     
-        <meta property="og:title" content="Weekly Lab Meeting" />
-<meta property="og:description" content="On the Multi-User Security of Short Schnorr Signatures Previous Next &nbsp; &nbsp; Page: / [Download] [Back]" />
+        <meta property="og:title" content="Tutte Colloquium 202" />
+<meta property="og:description" content="Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation) [Back]" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lee2856.github.io/talkslides/labmeeting1019/" /><meta property="article:section" content="talkslides" />
+<meta property="og:url" content="https://lee2856.github.io/talkvideos/tutte2026/" /><meta property="article:section" content="talkvideos" />
 
 
 
@@ -41,8 +41,8 @@
     
 
     
-        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Weekly Lab Meeting"/>
-<meta name="twitter:description" content="On the Multi-User Security of Short Schnorr Signatures Previous Next &nbsp; &nbsp; Page: / [Download] [Back]"/>
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Tutte Colloquium 202"/>
+<meta name="twitter:description" content="Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation) [Back]"/>
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -181,203 +181,13 @@
 <article class="line-numbers">
     
     
-    <h2 id="on-the-multi-user-security-of-short-schnorr-signatures">On the Multi-User Security of Short Schnorr Signatures</h2>
-<p><script type="text/javascript" src= '/js/build/pdf.js'></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-  display: none;
-}
-
-#paginator {
-  display: none;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#loadingWrapper {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 350px;
-}
-
-#loading {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 3px solid #d2d0d0;;
-  border-radius: 50%;
-  border-top-color: #383838;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
-}
-
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-</style>
-
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <div id="loadingWrapper">
-      <div id="loading"></div>
-    </div>
-    <canvas id="the-canvas"></canvas>
+    <h2 id="parallel-reversible-pebbling-time-space-tradeoffs-on-dags-with-cryptographic-motivation">Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation)</h2>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/wjENxMj0X48" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-<script type="text/javascript">
-window.onload = function() {
-
-
-var url = "https:\/\/lee2856.github.io\/" + '..\/docs\/Presentation-ShortSchnorr.pdf';
-
-var hidePaginator = "" === "true";
-var hideLoader = "" === "true";
-var selectedPageNum = parseInt("") || 1;
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/lee2856.github.io\/" + '/js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = selectedPageNum,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d'),
-    paginator = document.getElementById("paginator"),
-    loadingWrapper = document.getElementById('loadingWrapper');
-
-
-
-showPaginator();
-showLoader();
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      showContent();
-
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function showContent() {
-  loadingWrapper.style.display = 'none';
-  canvas.style.display = 'block';
-}
-
-
-
-function showLoader() {
-  if(hideLoader) return
-  loadingWrapper.style.display = 'flex';
-  canvas.style.display = 'none';
-}
-
-
-
-function showPaginator() {
-  if(hidePaginator) return
-  paginator.style.display = 'block';
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  var numPages = pdfDoc.numPages;
-  document.getElementById('page_count').textContent = numPages;
-
-  
-  if(pageNum > numPages) {
-    pageNum = numPages
-  }
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
-
-<a href="../../docs/Presentation-ShortSchnorr.pdf">[Download]</a> <a href="../../talks">[Back]</a></p>
+<a href="../../talks">[Back]</a></p>
 
 </article>
 </div>
