@@ -162,11 +162,8 @@ Put yourself LAST if you want to live a full life. No.1: Lord, No.2: Others, and
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/courses/spring2026/</guid>
-      <description>MATH 138 Online: Calculus II for Honours Mathematics (Spring 2026) Course Information Instructor: Seunghoon Lee (seunghoon.lee@uwaterloo.ca) Office Hour: TBA Course Outline Course Materials: [LEARN] Piazza Course Schedule (Schedule subject to change)
-Week Module Assignments Week 1 Unit 0: Getting Started
-Unit 1: Integration (1.1, 1.2, 1.3) Week 2 Unit 1: Integration (1.4, 1.5, 1.6) Möbius Assignment &amp;mdash; Units 1.1-1.3
-(Due: May 19, Tuesday, at 5:00 pm)
-Written Assignment &amp;mdash; Units 1.</description>
+      <description>MATH 138 Online: Calculus II for Honours Mathematics (Spring 2026) Course Information Instructor: Seunghoon Lee (seunghoon.lee@uwaterloo.ca) Live Session: Tuesday, at 4:00-5:00 pm on Microsoft Teams Office Hour: Wednesday, at 2:00-3:00 pm on Microsoft Teams Teaching Assistants: Vansh Sethi (vansh.sethi@uwaterloo.ca) and Spencer Kelly (s28kelly@uwaterloo.ca) Office Hour: Friday, at 1:00-2:00 pm on Microsoft Teams Course Materials: [LEARN] Course Outline Piazza Course Schedule (Schedule subject to change)
+Week Module Exam Week 1 Unit 0: Getting Started</description>
     </item>
     
     <item>
@@ -211,9 +208,8 @@ Written Assignment &amp;mdash; Units 1.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
-Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives.</description>
+      <description>Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
+Seunghoon Lee, Maher Mamah, and Bruno Sterner [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates.</description>
     </item>
     
     <item>
