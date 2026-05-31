@@ -31,8 +31,9 @@
 
     
         <meta property="og:title" content="Publications" />
-<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
-Seunghoon Lee, Maher Mamah, and Bruno Sterner [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates." />
+<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
+Jeremiah Blocki and Seunghoon Lee
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lee2856.github.io/publications/" /><meta property="article:section" content="" />
 
@@ -43,8 +44,9 @@ Seunghoon Lee, Maher Mamah, and Bruno Sterner [abstract] Despite growing work on
 
     
         <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Publications"/>
-<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
-Seunghoon Lee, Maher Mamah, and Bruno Sterner [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates."/>
+<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
+Jeremiah Blocki and Seunghoon Lee
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives."/>
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -185,10 +187,9 @@ Seunghoon Lee, Maher Mamah, and Bruno Sterner [abstract] Despite growing work on
     
     <h6 id="authors-are-listed-in-alphabetical-order-by-their-last-name">Authors are listed in alphabetical order by their last name.</h6>
 <h2 id="preprints">Preprints</h2>
-<ul>
-<li>
-<p><strong>On the Multi-User Security of CSI-FiSh with Tight Reductions.</strong><br>
-Seunghoon Lee, <a href="https://mahermamah7.github.io/maher.mamah/">Maher Mamah</a>, and <a href="https://scholar.google.com/citations?user=COZZkt0AAAAJ&amp;hl=en">Bruno Sterner</a>
+<!--
+- **On the Multi-User Security of CSI-FiSh with Tight Reductions.**\
+Seunghoon Lee, [Maher Mamah](https://mahermamah7.github.io/maher.mamah/), and [Bruno Sterner](https://scholar.google.com/citations?user=COZZkt0AAAAJ&hl=en)
 <details>
   <summary>[abstract]</summary>
   <p style="line-height:1.2"><font size="2">Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates.<br>
@@ -196,28 +197,25 @@ We initiate a <em>tight</em> multi-user security analysis of CSI-FiSh in the ran
 We further analyze CSI-FiSh against preprocessing attacks, where an adversary with nation-state resources can perform offline precomputations to produce a compressed hint before any public keys are deployed. We capture this by extending the preprocessing security framework of Coretti et al. (EUROCRYPT'18) to ROM+GGAM &ndash; obtaining concrete multi-user bounds for CSI-FiSh with preprocessing.<br>
 Finally, we address the multi-user security of CSI-FiSh in the quantum random-oracle model and obtain results in the algebraic group action model. Combining tight adaptive reprogramming with a multi-user reduction tailored to CSI-FiSh, we obtain a bound that again avoids multiplicative loss in the number of users. Together with our classical and preprocessing results, this gives a unified concrete security treatment of plain CSI-FiSh in the deployment regimes where multi-user and preprocessing effects are unavoidable.</font></p>
 </details>
-</p>
-</li>
-<li>
-<p><strong>On the Additive Sensitivity of LZ77 Under Consecutive Edits.</strong><br>
-<a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee
+
+
+- **On the Additive Sensitivity of LZ77 Under Consecutive Edits.**\
+[Jeremiah Blocki](https://www.cs.purdue.edu/homes/jblocki) and Seunghoon Lee
 <details>
   <summary>[abstract]</summary>
   <p style="line-height:1.2"><font size="2">We revisit the problem of mitigating information leakage in the widely used but insecure compress-then-encrypt paradigm. While encryption hides message contents, the ciphertext length is directly related to the length of the compressed message, which may, in turn, leak information about the <em>content</em> of the message itself. Recent work of Blocki et al. (TCC 2025) proposed an $(\epsilon,\delta)$-differentially private approach that adds randomized padding calibrated to the global sensitivity of the compression algorithm, and showed that the global sensitivity of LZ77 is $O(W^{2/3}\log n)$, where $n$ is the input length and $W$ is the sliding window size. <br>
 However, prior analysis focused only on sensitivity with respect to single-character edits, which leads to limited privacy guarantees when protecting longer substrings such as passwords, passphrases, cookies, or confidential user records.  A natural attempt to handle longer secrets is to appeal to group privacy, but for approximate differential privacy, this leads to very poor parameter degradation: in particular, the effective value of $\delta$ can grow exponentially with the group size $g$.  In this work, we introduce and study the sensitivity of compression schemes under block edits. Specifically, we define two strings to be $g$-neighbors if they differ only within a contiguous interval of length $g$. <br>
 Our main technical contribution is a nearly tight characterization of the $g$-consecutive sensitivity of LZ77. We show that the $g$-consecutive sensitivity of both LZ77 variants (with and without self-referencing) is at most $O((W^{2/3}+g+\sqrt{Wg})\log n)$. In particular, when $g \leq W^{1/3}$, the bound simplifies to $O(W^{2/3}\log n)$, matching the known bound for single-character edits. Thus, calibrating noise to the single-character sensitivity of LZ77 already suffices to protect much longer contiguous substrings. We provide matching lower bounds to demonstrate that our upper bound is tight, e.g., when $n=W=O(g^2)$, the $g$-consecutive sensitivity of LZ77 is at least $\tilde{\Omega}(g^{1.5})$, matching the $\sqrt{Wg}=O(g^{1.5})$ term from our upper bound up to a logarithmic factor.</font></p>
 </details>
-</p>
-</li>
-<li>
-<p><strong>Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.</strong><br>
+-->
+<ul>
+<li><strong>Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee<br>
 Cryptology ePrint Archive. <a href="https://eprint.iacr.org/2025/138.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
   <p style="line-height:1.2"><font size="2">In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives. It is often notoriously challenging to analyze the advantage of a preprocessing attacker, even under idealized assumptions (e.g., random oracles, generic groups, etc.). Blocki and Lee (EUROCRYPT'22) analyzed the preprocessing security of \emph{key-prefixed} short Schnorr signatures, where the random oracle is salted with the public key. However, their analysis did not extend to standardized implementations of Schnorr (e.g., ISO/IEC 14888-3), which do not adopt key-prefixing but disallow signatures that use a preimage of $0$. The (in)security of such &ldquo;(short) nonzero Schnorr signature&rdquo; was left as an open question.<br>
 In this paper, we fully resolve this open question, demonstrating that (short) nonzero Schnorr signatures are also secure against preprocessing attacks in the Random Oracle Model (ROM) plus the Generic Group Model (GGM). We also introduce new techniques to analyze security of hashed ElGamal-based KEMs in the ROM+GGM and use these techniques to prove the CCA security of PSEC-KEM against preprocessing attacks. To support our analyses in the ROM+GGM, we extend Coretti et al.&rsquo;s framework (CRYPTO/EUROCRYPT'18) to settings with multiple idealized primitives and use it in our proofs.</font></p>
 </details>
-</p>
 </li>
 </ul>
 <h2 id="publications">Publications</h2>

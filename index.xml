@@ -208,8 +208,9 @@ Week Module Exam Week 1 Unit 0: Getting Started</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
-Seunghoon Lee, Maher Mamah, and Bruno Sterner [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates.</description>
+      <description>Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
+Jeremiah Blocki and Seunghoon Lee
+Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives.</description>
     </item>
     
     <item>
