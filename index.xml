@@ -208,9 +208,9 @@ Week Module Exam Week 1 Unit 0: Getting Started</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Authors are listed in alphabetical order by their last name. Preprints Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.
-Jeremiah Blocki and Seunghoon Lee
-Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives.</description>
+      <description>Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
+Seunghoon Lee, Maher Mamah, and Bruno Sterner
+Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates.</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/awards/</guid>
-      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, IEEE S&amp;amp;P 2025, RANDOM 2025, TCC 2025, Communications in Cryptology (Volume 2, Issue 4), DCC 2026, and ACNS 2026. Selected Grants and Awards [2025] Postdoctoral Mentor Award Nominee for the Office of the Vice Provost for Graduate Students and Postdoctoral Scholars, Purdue University [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
+      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, IEEE S&amp;amp;P 2025, RANDOM 2025, TCC 2025, Communications in Cryptology (Volume 2, Issue 4), DCC 2026, ACNS 2026, and TCC 2026. Selected Grants and Awards [2025] Postdoctoral Mentor Award Nominee for the Office of the Vice Provost for Graduate Students and Postdoctoral Scholars, Purdue University [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
     </item>
     
     <item>
@@ -246,11 +246,11 @@ Cryptology ePrint Archive. [Full Version] [abstract] In modern cryptography, rel
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/talks/</guid>
-      <description>Talks Parallel Reversible Pebbling: Time-Space Tradeoffs on DAGs (with Cryptographic Motivation).
-Tutte Colloquium, in Waterloo, ON, Canada. [Slides] [Video] Differentially Private Compression and the Sensitivity of LZ77.
-Act2Qrypt Virtual Seminar, on Zoom. [Slides] Differentially Private Compression and the Sensitivity of LZ77.
-TCC 2025, in Aarhus, Denmark. [Slides] On the Multi-User Security of Short Schnorr Signatures with Preprocessing.
-Purdue Crypto Reading Group. [Slides] The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.</description>
+      <description>Talks Conference Presentations Differentially Private Compression and the Sensitivity of LZ77.
+TCC 2025, in Aarhus, Denmark. [Slides] The Parallel Reversible Pebbling Game: Analyzing the Post-Quantum Security of iMHFs.
+TCC 2022, in Chicago, IL, USA. [Slides] [Video] On Explicit Constructions of Extremely Depth Robust Graphs.
+STACS 2022, on Zoom. [Slides] [Video] On the Security of Proofs of Sequential Work in a Post-Quantum World.
+ITC 2021, on Zoom. [Slides] [Video] Approximating Cumulative Pebbling Cost is Unique Games Hard.</description>
     </item>
     
     <item>
@@ -279,7 +279,7 @@ Purdue Crypto Reading Group. [Slides] The Parallel Reversible Pebbling Game: Ana
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/teaching/</guid>
-      <description>At the University of Waterloo [Spring 2026] MATH 138 Online (Calculus II for Honours Mathematics). [Course Website] At Purdue University [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development) with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra) with Prof. David Gleich. [Spring 2018] Graduate TA for CS 25100 (Data Structures and Algorithms) with Prof. Daniel G. Aliaga and Prof.</description>
+      <description>Instructor of Record [Fall 2026] MATH 137 (Calculus I for Honours Mathematics). University of Waterloo. [Course Website] [Spring 2026] MATH 138 Online (Calculus II for Honours Mathematics). University of Waterloo. [Course Website] Teaching Assistant and Course Development [Fall 2021] Graduate TA for CS 58000-DEV (Algorithm Design, Analysis, and Implementation - Online Course Development). Purdue University. with Prof. Jeremiah Blocki. [Fall 2018] Graduate TA for CS 51500 (Numerical Linear Algebra). Purdue University.</description>
     </item>
     
     <item>
