@@ -31,9 +31,9 @@
 
     
         <meta property="og:title" content="Publications" />
-<meta property="og:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
+<meta property="og:description" content="Authors are listed in alphabetical order by their last name. For background on this convention, see Daniel J. Bernstein&rsquo;s note on authorship policies. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
 Seunghoon Lee, Maher Mamah, and Bruno Sterner
-Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates." />
+Cryptology ePrint Archive. [Full Version] [abstract] The security of isogeny-based signatures is almost exclusively studied in the single-user setting, leaving a gap for realistic multi-user deployments. This gap is especially crucial for CSI-FiSh, where the small challenge space and parameter sensitivity directly impacts security estimates." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lee2856.github.io/publications/" /><meta property="article:section" content="" />
 
@@ -44,9 +44,9 @@ Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on iso
 
     
         <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Publications"/>
-<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
+<meta name="twitter:description" content="Authors are listed in alphabetical order by their last name. For background on this convention, see Daniel J. Bernstein&rsquo;s note on authorship policies. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
 Seunghoon Lee, Maher Mamah, and Bruno Sterner
-Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates."/>
+Cryptology ePrint Archive. [Full Version] [abstract] The security of isogeny-based signatures is almost exclusively studied in the single-user setting, leaving a gap for realistic multi-user deployments. This gap is especially crucial for CSI-FiSh, where the small challenge space and parameter sensitivity directly impacts security estimates."/>
 
     <link rel="stylesheet" href="/style.min.fae245b6ce34259555eab2b011d31eb69cfeb04f46398e9c82df62439ad6edea66fa04d14a95b4bbf3ce9679be82b4badfed247f9962c2af62f53d0f389b424f.css" integrity="sha512-&#43;uJFts40JZVV6rKwEdMetpz&#43;sE9GOY6cgt9iQ5rW7epm&#43;gTRSpW0u/POlnm&#43;grS63&#43;0kf5liwq9i9T0POJtCTw==">
 
@@ -82,6 +82,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on iso
 
 
 
+<link rel="stylesheet" href="/css/custom.css">
 </head>
 <body>
         <main><header>
@@ -185,7 +186,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on iso
 <article class="line-numbers">
     
     
-    <h6 id="authors-are-listed-in-alphabetical-order-by-their-last-name">Authors are listed in alphabetical order by their last name.</h6>
+    <h6 id="authors-are-listed-in-alphabetical-order-by-their-last-name-for-background-on-this-convention-see-daniel-j-bernsteins-note-on-authorship-policieshttpscryptoauthorshiphtml">Authors are listed in alphabetical order by their last name. For background on this convention, see Daniel J. Bernstein&rsquo;s note on <a href="https://cr.yp.to/authorship.html">authorship policies</a>.</h6>
 <h2 id="preprints">Preprints</h2>
 <ul>
 <li>
@@ -193,20 +194,19 @@ Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on iso
 Seunghoon Lee, <a href="https://mahermamah7.github.io/maher.mamah/">Maher Mamah</a>, and <a href="https://scholar.google.com/citations?user=COZZkt0AAAAJ&amp;hl=en">Bruno Sterner</a><br>
 Cryptology ePrint Archive. <a href="https://eprint.iacr.org/2026/2216.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
-  <p style="line-height:1.2"><font size="2">Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates.<br>
-We initiate a <em>tight</em> multi-user security analysis of CSI-FiSh in the random-oracle model plus generic group-action model (ROM+GGAM) under adaptive corruptions. We also obtain tight concrete security bounds for plain CSI-FiSh in the GGAM where, to the best of our knowledge, no such bounds were previously known even for a single user. Crucially, our analysis only incurs an <em>additive</em> degradation in the number of users rather than a multiplicative one.<br>
-We further analyze CSI-FiSh against preprocessing attacks, where an adversary with nation-state resources can perform offline precomputations to produce a compressed hint before any public keys are deployed. We capture this by extending the preprocessing security framework of Coretti et al. (EUROCRYPT'18) to ROM+GGAM &ndash; obtaining concrete multi-user bounds for CSI-FiSh with preprocessing.<br>
-Finally, we address the multi-user security of CSI-FiSh in the quantum random-oracle model and obtain results in the algebraic group action model. Combining tight adaptive reprogramming with a multi-user reduction tailored to CSI-FiSh, we obtain a bound that again avoids multiplicative loss in the number of users. Together with our classical and preprocessing results, this gives a unified concrete security treatment of plain CSI-FiSh in the deployment regimes where multi-user and preprocessing effects are unavoidable.</font></p>
+  <p style="line-height:1.2"><font size="2">The security of isogeny-based signatures is almost exclusively studied in the single-user setting, leaving a gap for realistic multi-user deployments. This gap is especially crucial for CSI-FiSh, where the small challenge space and parameter sensitivity directly impacts security estimates. We address the multi-user security of CSI-FiSh and obtain tight concrete classical multi-user bounds in the random-oracle model (ROM) plus generic group-action model (GGAM). Crucially, our analysis only incurs an <em>additive</em> degradation in the number of users rather than a multiplicative one. As a byproduct, we show that CSI-FiSh attains $125$ bits of provable classical security even with $2^{46}$ users. We extend this analysis to preprocessing attacks, where an adversary with nation-state resources can perform offline precomputations. We capture this by extending the preprocessing security framework of Coretti et al. to ROM+GGAM and obtain concrete multi-user bounds for CSI-FiSh with preprocessing. Finally, we address the multi-user security of CSI-FiSh in the quantum random-oracle model and obtain results in the algebraic group action model which also avoids this multiplicative loss. This gives a unified concrete security treatment of plain CSI-FiSh in the deployment regimes where multi-user and preprocessing effects are unavoidable.</font></p>
 </details>
 </p>
 </li>
 <li>
-<p><strong>Preprocessing Security of (Nonzero) Short Schnorr Signatures and Hashed ElGamal KEM.</strong><br>
+<p><strong>On the Preprocessing Security of Nonzero Schnorr Signatures with Adaptive Corruptions.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee<br>
 Cryptology ePrint Archive. <a href="https://eprint.iacr.org/2025/138.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
-  <p style="line-height:1.2"><font size="2">In modern cryptography, relatively few instantiations of foundational cryptographic primitives are used across most cryptographic protocols. This limited diversity raises concerns about preprocessing attacks, where an adversary with nation-state-level resources generates a hint that can later be exploited to break protocols built on these primitives. It is often notoriously challenging to analyze the advantage of a preprocessing attacker, even under idealized assumptions (e.g., random oracles, generic groups, etc.). Blocki and Lee (EUROCRYPT'22) analyzed the preprocessing security of \emph{key-prefixed} short Schnorr signatures, where the random oracle is salted with the public key. However, their analysis did not extend to standardized implementations of Schnorr (e.g., ISO/IEC 14888-3), which do not adopt key-prefixing but disallow signatures that use a preimage of $0$. The (in)security of such &ldquo;(short) nonzero Schnorr signature&rdquo; was left as an open question.<br>
-In this paper, we fully resolve this open question, demonstrating that (short) nonzero Schnorr signatures are also secure against preprocessing attacks in the Random Oracle Model (ROM) plus the Generic Group Model (GGM). We also introduce new techniques to analyze security of hashed ElGamal-based KEMs in the ROM+GGM and use these techniques to prove the CCA security of PSEC-KEM against preprocessing attacks. To support our analyses in the ROM+GGM, we extend Coretti et al.&rsquo;s framework (CRYPTO/EUROCRYPT'18) to settings with multiple idealized primitives and use it in our proofs.</font></p>
+  <p style="line-height:1.2"><font size="2">Modern cryptographic protocols rely on a relatively small collection of standardized hash functions and groups, raising the possibility of <em>preprocessing attacks</em> in which a computationally unbounded offline attacker generates a bounded-size hint that accelerates a later online attack. Blocki and Lee (EUROCRYPT 2022) analyzed the preprocessing security of <em>key-prefixed</em> short Schnorr signatures, where the public key is included in the random-oracle input. Their analysis imposed an a priori restriction on the number of oracle queries made during preprocessing and did not extend to standardized implementations of Schnorr, such as ISO/IEC 14888-3, which do not use key-prefixing but instead reject signatures whose hash challenge is zero. The preprocessing security of these <em>nonzero Schnorr signatures</em> was left as an open question.<br>
+We resolve this question affirmatively in the ROM+GGM. Moreover, our analysis holds in a stronger model that permits unrestricted offline computation and oracle access, subject only to the size of the resulting hint, as well as adaptive corruption queries during the online phase. Suppressing lower-order terms, an online attacker making $q$ total oracle queries, including $q_\mathsf{H}$ random-oracle queries, forges a nonzero Schnorr signature for one of $N$ users with probability at most $O(\sqrt{Sq^2/p} + q_\mathsf{H} N/2^{\lambda_\mathsf{H}})$, where $p$ is the group order and $\lambda_\mathsf{H}$ is the hash-output length.<br>
+We show that the factor-$N$ loss is inherent by giving a matching <em>target-switching attack</em> with success probability $\Omega(q_\mathsf{H} N/2^{\lambda_\mathsf{H}})$. By contrast, key-prefixing prevents this attack and the corresponding term in the security bound is just $q_\mathsf{H}/2^{\lambda_\mathsf{H}}$. Consequently, at the same $\lambda$-bit security level, key-prefixing enables signatures that are approximately $\log N$ bits shorter than that of nonzero Schnorr.<br>
+To support these results, we extend the Bit-Fixing-to-Auxiliary-Input framework of Coretti et al. (CRYPTO/EUROCRYPT 2018) to applications involving multiple idealized primitives. We also address a subtle technical challenge introduced by rejection sampling in the standardized nonzero Schnorr signing algorithm: although long rejection sequences are exceptionally unlikely, a signing query has no deterministic worst-case bound on the number of random-oracle and generic-group queries made by the challenger.</font></p>
 </details>
 </p>
 </li>
@@ -341,7 +341,7 @@ wire. We introduce new forms of logic circuits such as NOT, AND, OR gates, a cur
                 
             </div>
 <footer>
-    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: September 27, 2026.</article>
+    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: October 7, 2026.</article>
 </footer>
 
 </main>

@@ -208,9 +208,9 @@ Week Module Exam Week 1 Unit 0: Getting Started</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/publications/</guid>
-      <description>Authors are listed in alphabetical order by their last name. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
+      <description>Authors are listed in alphabetical order by their last name. For background on this convention, see Daniel J. Bernstein&amp;rsquo;s note on authorship policies. Preprints On the Multi-User Security of CSI-FiSh with Tight Reductions.
 Seunghoon Lee, Maher Mamah, and Bruno Sterner
-Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on isogeny-based signatures, security is studied almost exclusively in the single-user setting, leaving a gap for realistic multi-user deployments. This is especially crucial for CSI-FiSh, where the small challenge space, parallel repetition, and parameter sensitivity make reduction losses directly impact security estimates.</description>
+Cryptology ePrint Archive. [Full Version] [abstract] The security of isogeny-based signatures is almost exclusively studied in the single-user setting, leaving a gap for realistic multi-user deployments. This gap is especially crucial for CSI-FiSh, where the small challenge space and parameter sensitivity directly impacts security estimates.</description>
     </item>
     
     <item>
@@ -219,7 +219,7 @@ Cryptology ePrint Archive. [Full Version] [abstract] Despite growing work on iso
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lee2856.github.io/awards/</guid>
-      <description>Professional Services External reviewers: CCS 2019, NDSS 2020, CT-RSA 2020, ITC 2020, CRYPTO 2020, TCC 2020, CRYPTO 2021, ITCS 2022, FC 2022, ITC 2022, CRYPTO 2022, SYNASC 2022, IEEE S&amp;amp;P 2023, EUROCRYPT 2023, IEEE S&amp;amp;P 2024, EUROCRYPT 2024, ESA 2024, QIP 2025, IEEE S&amp;amp;P 2025, RANDOM 2025, TCC 2025, Communications in Cryptology (Volume 2, Issue 4), DCC 2026, ACNS 2026, and TCC 2026. Selected Grants and Awards [2025] Postdoctoral Mentor Award Nominee for the Office of the Vice Provost for Graduate Students and Postdoctoral Scholars, Purdue University [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
+      <description>Professional Services Program Committees PQCrypto 2027 Conference Reviews CRYPTO (2022, 2021, 2020) EUROCRYPT (2024, 2023) TCC (2026, 2025, 2020) IEEE S&amp;amp;P (2025, 2024, 2023) CCS (2019) NDSS (2020) Financial Cryptography (2022) ITCS (2022) ITC (2022, 2020) RANDOM (2025) ACNS (2026) DCC (2026) ESA (2024) QIP (2025) CT-RSA (2020) SYNASC (2022) Journal Reviews Communications in Cryptology (Volume 2, Issue 4) Selected Grants and Awards [2025] Postdoctoral Mentor Award Nominee for the Office of the Vice Provost for Graduate Students and Postdoctoral Scholars, Purdue University [2023-2024] Bilsland Dissertation Fellowship, Purdue University [2019-2023] Graduate Research Assistantship, Purdue University [2017-2018] Graduate Teaching Assistantship, Purdue University [2012] Outstanding Teaching Assistant Award, Seoul National University [2010-2013] Brain Korea 21 Scholarship, National Research Foundation of Korea [2005-2009] Presidential Science Scholarship, Korea Student Aid Foundation </description>
     </item>
     
     <item>
