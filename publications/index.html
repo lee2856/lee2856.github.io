@@ -216,7 +216,7 @@ To support these results, we extend the Bit-Fixing-to-Auxiliary-Input framework 
 <li>
 <p><strong>On the Additive Sensitivity of LZ77 Under Consecutive Edits.</strong><br>
 <a href="https://www.cs.purdue.edu/homes/jblocki">Jeremiah Blocki</a> and Seunghoon Lee<br>
-To appear in <a href="https://tcc.iacr.org/2026/"><em>TCC 2026</em></a>. <a href="https://eprint.iacr.org/2026/1238.pdf">[Full Version]</a> <details>
+In <a href="https://tcc.iacr.org/2026/"><em>TCC 2026</em></a>. <a href="https://eprint.iacr.org/2026/1238.pdf">[Full Version]</a> <details>
   <summary>[abstract]</summary>
   <p style="line-height:1.2"><font size="2">We revisit the problem of mitigating information leakage in the widely used but insecure compress-then-encrypt paradigm. While encryption hides message contents, the ciphertext length is directly related to the length of the compressed message, which may, in turn, leak information about the <em>content</em> of the message itself. Recent work of Blocki et al. (TCC 2025) proposed an $(\epsilon,\delta)$-differentially private approach that adds randomized padding calibrated to the global sensitivity of the compression algorithm, and showed that the global sensitivity of LZ77 is $O(W^{2/3}\log n)$, where $n$ is the input length and $W$ is the sliding window size. <br>
 However, prior analysis focused only on sensitivity with respect to single-character edits, which leads to limited privacy guarantees when protecting longer substrings such as passwords, passphrases, cookies, or confidential user records.  A natural attempt to handle longer secrets is to appeal to group privacy, but for approximate differential privacy, this leads to very poor parameter degradation: in particular, the effective value of $\delta$ can grow exponentially with the group size $g$.  In this work, we introduce and study the sensitivity of compression schemes under block edits. Specifically, we define two strings to be $g$-neighbors if they differ only within a contiguous interval of length $g$. <br>
@@ -341,7 +341,7 @@ wire. We introduce new forms of logic circuits such as NOT, AND, OR gates, a cur
                 
             </div>
 <footer>
-    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: October 7, 2026.</article>
+    <article>Copyright © 2022-2025 Seunghoon Lee. Powered by <a href='https://gohugo.io/' target='_blank'>Hugo</a> with <a href='https://github.com/kaiiiz/hugo-theme-monochrome' target='_blank'>monochrome</a> theme.</br>Last updated: November 17, 2026.</article>
 </footer>
 
 </main>
